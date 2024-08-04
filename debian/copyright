@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: an-anime-game-launcher
+Upstream-Name: honkers-launcher
 Upstream-Contact: Nikita Podvirnyi <krypt0nn@vk.com>
-Source: https://github.com/an-anime-team/an-anime-game-launcher
+Source: https://github.com/an-anime-team/honkers-launcher
 
 Files: *
 Copyright: 2024 Nikita Podvirnyi <krypt0nn@vk.com>

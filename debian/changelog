@@ -1,17 +1,27 @@
-an-anime-game-launcher (3.11.0) noble; urgency=low
+honkers-launcher (1.7.1) noble; urgency=low
 
+  * 1.7.1 (rev.125787e7)
+  * Merge pull request #169 from an-anime-team/next (rev.83b9f887)
+  * feat: removed p7zip dependency (rev.a92f3599)
+  * docs: updated changelog (rev.57dde861)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Sat, 03 Aug 2024 08:54:02 -0000
+
+honkers-launcher (1.7.0) noble; urgency=low
+
+  * 1.7.0 (rev.9d11ce1c)
+  * Merge pull request #168 from an-anime-team/next (rev.e19cbf4c)
+  * feat: updated changelog (rev.51c4f66b)
+  * feat: added 2.4.0 voiceovers sizes (rev.acc6e77c)
+  * fix: fixed merging issues (rev.008b8ce1)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.898388e1)
   * 3.11.0 (rev.6fc8547e)
   * Merge pull request #412 from an-anime-team/next (rev.75f09cb7)
   * feat: updated changelog (rev.5a23eef6)
   * feat: clarify GPL version in about dialog (rev.0e692df4)
   * feat: removed migrate installation feature (rev.e2823aaf)
   * build: updated SDK version (rev.32ef2a02)
-
-
- -- Nikita Podvirnyi <krypt0nn@vk.com>  Fri, 02 Aug 2024 09:24:17 -0000
-
-an-anime-game-launcher (3.10.3) noble; urgency=low
-
   * 3.10.3 (rev.935390ab)
   * Merge pull request #404 from an-anime-team/next (rev.2c3559c0)
   * feat: updated changelog (rev.287e79e7)
@@ -20,12 +30,6 @@ an-anime-game-launcher (3.10.3) noble; urgency=low
   * fix: potentially fixed `game.log` file issues (rev.209ca477)
   * Update README.md (rev.db46f254)
   * docs: updated readme (rev.c97259c0)
-
-
- -- Nikita Podvirnyi <krypt0nn@vk.com>  Sun, 21 Jul 2024 07:36:31 -0000
-
-an-anime-game-launcher (3.10.2) noble; urgency=low
-
   * 3.10.2 (rev.4c95c145)
   * Merge pull request #401 from an-anime-team/next (rev.ad287928)
   * builds: updated SDK version (rev.290adcee)
@@ -54,32 +58,46 @@ an-anime-game-launcher (3.10.2) noble; urgency=low
   * docs: updated changelog (rev.bacc930c)
 
 
- -- Nikita Podvirnyi <krypt0nn@vk.com>  Fri, 19 Jul 2024 14:08:50 -0000
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Fri, 02 Aug 2024 12:50:02 -0000
 
-an-anime-game-launcher (3.10.1) noble; urgency=low
+honkers-launcher (1.6.1) noble; urgency=low
 
+  * 1.6.1 (rev.195e4954)
+  * Merge pull request #157 from an-anime-team/next (rev.9c936d2e)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.34f366c3)
   * 3.10.1 (rev.cdeca3b6)
   * Merge pull request #391 from an-anime-team/next (rev.beb42aba)
   * feat: updated changelog (rev.4d48cd77)
   * build: updated sdk version (rev.79fc467d)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Tue, 02 Jul 2024 08:04:42 -0000
+
+honkers-launcher (1.6.0) noble; urgency=low
+
+  * 1.6.0 (rev.4bdfcdb6)
+  * Merge pull request #149 from an-anime-team/next (rev.e61ff648)
+  * fix: fixing some merging errors (rev.4021167a)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.5da9de60)
   * fix: fixed last commit (rev.a7393156)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.44b39223)
   * feat: handle dwebp re-coding errors (rev.d125b270)
   * docs: updated changelog (rev.d37e0fb7)
   * 3.10.0 (rev.7b7400dc)
+  * Merge branch 'main' into next (rev.84b2e384)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.795ef8d6)
   * docs: updated changelog (rev.ffc83554)
-
-
- -- Nikita Podvirnyi <krypt0nn@vk.com>  Tue, 02 Jul 2024 07:40:43 -0000
-
-an-anime-game-launcher (3.10.0) noble; urgency=low
-
   * 3.10.0 (rev.5f843df0)
   * Merge pull request #385 from an-anime-team/next (rev.72a0345a)
   * fix: fixed Italian localization breaking the launcher (rev.231e2368)
   * feat: updated changelog (rev.abda7a35)
   * build: updated core library (rev.d51b4285)
   * feat: create primary background file if it doesn't exist (rev.eb0f0eae)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher (rev.8921ad98)
   * feat: respect CN API for getting background image (rev.b529f3e7)
+  * build: updated `Cargo.lock` (rev.5b12ac5d)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher (rev.37d9633d)
+  * build: removed .idea (rev.91732ea4)
   * feat: updated background images support (rev.d0f731d6)
   * build: updated `Cargo.lock` (rev.d991f5aa)
   * feat: updated background picture URI (rev.04a315ac)
@@ -88,15 +106,26 @@ an-anime-game-launcher (3.10.0) noble; urgency=low
   * Update anime-game-launcher.desktop (rev.1268a5b2)
   * Merge pull request #375 from xxanqw/main (rev.45f86d29)
   * Localizing force-grab-cursor (rev.c5904345)
+  * merged mainline (rev.b33ef5d1)
   * feat: list missing dependencies on non-standard distros (rev.19d1deea)
+  * Merge branch 'refs/heads/next' (rev.ab5635ce)
+  * ci: fixed release build artifact (rev.40ed1c30)
+  * Merge branch 'next' (rev.4a4ec6a0)
+  * Merge branch 'next' of https://github.com/an-anime-team/the-honkers-railway-launcher into next (rev.aa3b50fd)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.9b335bc9)
   * feat: updated shell.nix (rev.d8a43562)
   * build: added `shell.nix` and direnv integration (rev.222eb72d)
 
 
- -- Nikita Podvirnyi <krypt0nn@vk.com>  Mon, 17 Jun 2024 13:25:19 -0000
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Mon, 17 Jun 2024 14:07:45 -0000
 
-an-anime-game-launcher (3.9.6) noble; urgency=low
+honkers-launcher (1.5.5) noble; urgency=low
 
+  * 1.5.5 (rev.135f2ace)
+  * Merge pull request #136 from an-anime-team/next (rev.e409fb2e)
+  * Merge pull request #116 from JustMarkov/main (rev.8eff1f2b)
+  * Merge pull request #120 from qtstm32fan/main (rev.6b49db01)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.6f90740b)
   * 3.9.6 (rev.68a68a29)
   * Merge pull request #367 from an-anime-team/next (rev.bcffcd91)
   * ci: added `cmake` package (rev.2b015782)
@@ -111,16 +140,33 @@ an-anime-game-launcher (3.9.6) noble; urgency=low
   * build: updated dependencies (rev.d0265192)
   * Update to the maintanted ebuilds (rev.5e64554e)
   * Better labels for the payment processing options (rev.1f7dfdb7)
+  * fix: wish url (rev.d95cfbaf)
   * add czech localization (rev.5aff3993)
+  * Update README.md (rev.440b62e8)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 08 May 2024 18:06:46 -0000
+
+honkers-launcher (1.5.4) noble; urgency=low
+
+  * 1.5.4 (rev.1b41f0e7)
+  * Merge pull request #114 from an-anime-team/next (rev.4e7cfe47)
+  * feat: updated changelog (rev.ed90e7eb)
+  * feat(core): updated core version (rev.abe660d0)
   * update my username in credits (rev.18222ed1)
   * Show some helpful error when --run-game cannot work (rev.860a8474)
   * docs: fixed date in changelog (rev.e4bc7afa)
+  * docs: fixed date in changelog (rev.36704e2d)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 08 May 2024 17:44:23 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 27 Mar 2024 16:21:42 -0000
 
-an-anime-game-launcher (3.9.5) noble; urgency=low
+honkers-launcher (1.5.3) noble; urgency=low
 
+  * 1.5.3 (rev.64a175f8)
+  * Merge pull request #112 from an-anime-team/next (rev.df0967d2)
+  * Merge branch 'next' of https://github.com/an-anime-team/the-honkers-railway-launcher into next (rev.54424dca)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.f8ea5b12)
   * 3.9.5 (rev.23eab458)
   * Merge pull request #353 from an-anime-team/next (rev.c8b1ea3b)
   * feat: updated changelog (rev.d853a1ea)
@@ -157,14 +203,21 @@ an-anime-game-launcher (3.9.5) noble; urgency=low
   * Update enhancements.ftl (rev.2e2ef948)
   * Second push of Thai translation (rev.c40ba585)
   * fix: update wish url (rev.20385b3c)
+  * Merge pull request #103 from nvkomata/main (rev.44ff7d2f)
   * Add Ukrainian language support (rev.b2ebfe6c)
+  * drop patch status in readme (rev.81d3f44b)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 24 Mar 2024 11:12:29 -0000
+
+honkers-launcher (1.5.2) noble; urgency=low
+
+  * 1.5.2 (rev.71d217cc)
+  * Merge pull request #99 from an-anime-team/next (rev.013627c2)
+  * feat: updated changelog (rev.e51eb8b1)
+  * feat(i18n): updated locales (rev.c4a383b5)
   * docs: added versions links to the changelog (rev.fc9c6507)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 24 Mar 2024 10:51:08 -0000
-
-an-anime-game-launcher (3.9.4) noble; urgency=low
-
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.75e50798)
   * 3.9.4 (rev.50fe1bb1)
   * Merge pull request #315 from an-anime-team/next (rev.ea006727)
   * feat: updated changelog (rev.a22b582d)
@@ -176,12 +229,6 @@ an-anime-game-launcher (3.9.4) noble; urgency=low
   * feat: remove the option to disable periodic writes (rev.445f545c)
   * feat(i18n): added translations for new FPS unlocker keys (rev.2f522d3b)
   * feat(ui): adapted to the new FPS unlocker (rev.35f13bb0)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 29 Dec 2023 19:53:14 -0000
-
-an-anime-game-launcher (3.9.3) noble; urgency=low
-
   * 3.9.3 (rev.d8fc5f11)
   * Merge pull request #311 from an-anime-team/next (rev.b9ef7ccb)
   * feat: updated changelog (rev.c0708c6e)
@@ -192,19 +239,50 @@ an-anime-game-launcher (3.9.3) noble; urgency=low
   * Merge pull request #299 from kfolgerr/next (rev.f052206d)
   * updated turkish (rev.43f60ed4)
   * On branch next (rev.b1bd71fe)
+  * docs: added version link (rev.c78e3985)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 29 Dec 2023 20:53:37 -0000
+
+honkers-launcher (1.5.1) noble; urgency=low
+
+  * 1.5.1 (rev.755d10a3)
+  * Merge pull request #87 from an-anime-team/next (rev.51a455c6)
+  * feat: updated changelog (rev.bd288fde)
+  * fix(ui): fixed launch button color in concerning patches (rev.14302bcc)
+  * feat: updated changelog (rev.f7c9ba0f)
+  * feat(i18n): updated locales (rev.4282b358)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.552e1238)
   * feat(i18n): updated locales (rev.fad5190a)
+  * Merge pull request #85 from nuleftus/main (rev.ee22fcfd)
+  * build: updated `Cargo.lock` (rev.a29b625e)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.c13debb7)
   * build: updated core library (rev.fd9f2347)
+  * feat: added repair game feature (rev.37114bc2)
+  * feat(ui): added special tooltips for concerning patch status (rev.bb4513b8)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.30204186)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.ac0a21a9)
   * feat(ui): added "updating permissions" installation step (rev.203d5a9b)
+  * remake logo/patch status using an svg (rev.d29e0af5)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 23 Dec 2023 14:34:36 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 15 Nov 2023 20:24:11 -0000
 
-an-anime-game-launcher (3.9.2) noble; urgency=low
+honkers-launcher (1.5.0) noble; urgency=low
 
+  * 1.5.0 (rev.1010132f)
+  * Merge pull request #84 from an-anime-team/next (rev.8b194270)
+  * feat: updated changelog (rev.16a58856)
   * 3.9.2 (rev.5a6d7132)
   * Merge pull request #291 from an-anime-team/next (rev.8a399df0)
   * build: updated SDK version (rev.e544b034)
+  * feat(ui): new patch status integration (rev.95f28379)
+  * feat(ui): added new patch status, fixed voiceovers issue (rev.17224145)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.bbcdcf49)
   * feat: updated changelog (rev.35eea145)
+  * feat: initial voiceovers integration (rev.b93172f7)
+  * Addition to the merge request (rev.544cf245)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.f58120cf)
   * feat(i18n): updated Japanese (rev.142872bf)
   * fix: fixed fluentscan.py script (rev.cac34976)
   * build: updated development libraries versions (rev.e6076ef4)
@@ -215,12 +293,6 @@ an-anime-game-launcher (3.9.2) noble; urgency=low
   * Syntax error (rev.c881c154)
   * Add Dutch translation (rev.097b4443)
   * Korean Translation (rev.2926a71f)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 13 Nov 2023 19:32:53 -0000
-
-an-anime-game-launcher (3.9.1) noble; urgency=low
-
   * v3.9.1 (rev.5659208f)
   * Merge pull request #269 from an-anime-team/next (rev.10ea4590)
   * docs: updated changelog (rev.17af5c10)
@@ -235,16 +307,23 @@ an-anime-game-launcher (3.9.1) noble; urgency=low
   * Update errors.ftl (rev.ccfd34b8)
   * Update chinese translation (rev.9a7b486b)
   * Add Vietnamese (rev.13ccf375)
+  * chore: updated launcher pictures (rev.441d82e8)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 13 Nov 2023 20:16:00 -0000
+
+honkers-launcher (1.4.0) noble; urgency=low
+
+  * 1.4.0 (rev.a87bd99c)
+  * Merge pull request #65 from an-anime-team/next (rev.540c5aee)
+  * feat: updated changelog (rev.683a6c96)
+  * revert: reverted unwanted readme changes (rev.2dca3f02)
+  * fix: fixed module import (rev.d06e52bc)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.9be0d999)
   * chore: removed repository logo (rev.87a0bd6f)
   * chore: updated repository pictures (rev.8bbf04e4)
   * docs: removed patch reference from the readme (rev.a8811add)
   * docs: updated changelog (rev.365c9764)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 28 Sep 2023 16:21:06 -0000
-
-an-anime-game-launcher (3.9.0) noble; urgency=low
-
   * 3.9.0 (rev.63202a60)
   * Merge pull request #241 from an-anime-team/next (rev.0059a26f)
   * feat: updated changelog (rev.512287ef)
@@ -253,6 +332,9 @@ an-anime-game-launcher (3.9.0) noble; urgency=low
   * feat(i18n): add `pl` (rev.9a25c729)
   * feat: updated changelog (rev.bf91a59f)
   * feat: added `--session <name>` flag to switch active session (rev.91e7019e)
+  * revert(ui): returned back tos warning to the first run window (rev.180d2bdb)
+  * revert(ui): returned back patch-related settings in first run window (rev.8057feda)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.5f7aece2)
   * feat(i18n): updated Indonesian (rev.777675b1)
   * feat(i18n): updated Japanese (rev.87af3e28)
   * merge: update swedish localization (rev.e54f585f)
@@ -268,20 +350,31 @@ an-anime-game-launcher (3.9.0) noble; urgency=low
   * feat: removed patch integration (rev.252c9480)
   * Merge pull request #233 from jakobfridesjo/next (rev.db3dc481)
   * improving swedish translations (rev.dab2d893)
+  * feat: updated wishes url extractor to use new cache storage (rev.ca64b8d4)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.18a3623d)
   * feat(i18n): updated Italian (rev.808aff17)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.51d7b262)
   * docs: updated changelog (rev.f472a6ba)
   * refactor: rewrote game edition selector (rev.e09efc6e)
   * fix(ui): fixed logo size in the first run window (rev.ba41a3c0)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.87d4e6ca)
   * feat(i18n): updated Japanese (rev.8b318722)
   * feat(i18n): updated Italian (rev.beeedcfb)
   * feat(i18n): updated Turkish (rev.0b2bca27)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.77985849)
   * refactor: removed excess `set_visible` (rev.8906a4a7)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 20 Aug 2023 14:38:50 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 20 Aug 2023 15:22:43 -0000
 
-an-anime-game-launcher (3.8.0) noble; urgency=low
+honkers-launcher (1.3.0) noble; urgency=low
 
+  * 1.3.0 (rev.76b53ede)
+  * Merge pull request #59 from an-anime-team/next (rev.92d18571)
+  * fix: updated game process name for "kill game process" feature (rev.0ccb4a96)
+  * fix: updated gtk resources path (rev.d7e6adb4)
+  * fix: fixed merging issue (rev.8cccb1e2)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.dc2e8e82)
   * feat: updated changelog (rev.f359be9f)
   * Merge pull request #227 from jakobfridesjo/next (rev.4759df1a)
   * 3.8.0 (rev.dde50e6b)
@@ -298,6 +391,7 @@ an-anime-game-launcher (3.8.0) noble; urgency=low
   * feat: added `human_panic` crate for better panics handling (rev.6c58d715)
   * feat: updated changelog (rev.69bd93bd)
   * feat: made "kill game process" button kill fps unlocker process as well (rev.747c7e3d)
+  * chore: updated patch status (rev.9ab49c83)
   * feat(i18n): translated "kill game process" feature (rev.69d41e7c)
   * feat: now "kill game process" button can kill chinese client as well (rev.2d5a8143)
   * feat(core): improved game running status check (rev.11d9d3f7)
@@ -312,22 +406,48 @@ an-anime-game-launcher (3.8.0) noble; urgency=low
   * feat: added launcher auto-close option (rev.5d1473a6)
   * feat: updated changelog (rev.d6208ee6)
   * build: updated SDK version (rev.448be140)
+  * chore: updated repository pictures (rev.7c682ff3)
+  * docs: added some info about the patch to the readme (rev.ae9c9b2b)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 02 Aug 2023 15:30:33 -0000
+
+honkers-launcher (1.2.5) noble; urgency=low
+
+  * 1.2.5 (rev.78e9f3e3)
+  * build: updated SDK version (rev.72398a88)
+  * Merge branch 'next' of https://github.com/an-anime-team/the-honkers-railway-launcher into next (rev.45e260d8)
+  * feat(core): added a workaround to fix login error 400 in the game (rev.1dfbf118)
+  * Merge pull request #54 from mkrsym1/metadata-fallback (rev.0631236d)
+  * feat: don't make requests to the Codeberg releases API unless absolutely necessary (rev.7ba793c0)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 19 Jul 2023 14:46:48 -0000
+
+honkers-launcher (1.2.4) noble; urgency=low
+
+  * 1.2.4 (rev.4a317fcc)
+  * Merge pull request #53 from an-anime-team/next (rev.4964fed5)
+  * build: updated `Cargo.lock` (rev.a772cac1)
+  * feat: updated changelog (rev.eb6928e8)
+  * fix(ui): fixed main button sensitivity for broken/unsafe state edge case (rev.93707c43)
+  * fix: fixed predownload button sensitivity (rev.1360db6f)
   * fix: fixed predownload button sensitivity (rev.76372d4b)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.be772d9a)
   * feat(ui): improved pre-downloads state checking (rev.82f6d2c9)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 02 Aug 2023 14:40:54 -0000
-
-an-anime-game-launcher (3.7.6) noble; urgency=low
-
+  * feat: updated SDK with improved update pre-download support (rev.1e791a55)
   * 3.7.6 (rev.1479edf2)
   * fix: fixed game launching on installs without `launcher.bat` file (rev.51e992d2)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 15 Jul 2023 12:53:45 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 17 Jul 2023 21:11:03 -0000
 
-an-anime-game-launcher (3.7.5) noble; urgency=low
+honkers-launcher (1.2.3) noble; urgency=low
 
+  * 1.2.3 (rev.e0d4bf79)
+  * Merge pull request #52 from an-anime-team/next (rev.a0445391)
+  * Merge pull request #50 from tigersoldier/lang-zh-122 (rev.057dcd18)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.38c5008d)
   * 3.7.5 (rev.ac566f5e)
   * Merge pull request #221 from an-anime-team/next (rev.e7ddb3b6)
   * feat: added support to the new wishes url cache location (rev.ee5ab239)
@@ -335,18 +455,26 @@ an-anime-game-launcher (3.7.5) noble; urgency=low
   * feat(core): updated SDK version with disabled by default patch applying (rev.1520b6aa)
   * build: updated `Cargo.lock` (rev.995052c2)
   * Merge pull request #217 from tigersoldier/lang-zh-374 (rev.5f5a9626)
+  * Update Chinese translation (rev.08b7ebd0)
   * Update Chinese tranlsation (rev.da7b7012)
   * broken light theme (rev.212acf46)
   * chore: image changing to 3.8 (rev.dd35e66c)
   * fix: fixed #208 (rev.4b242e94)
   * Merge pull request #214 from RabbyDevs/main (rev.2925a5a2)
+  * chore: change banner image(s) (rev.f5b8aadc)
+  * Merge pull request #49 from RabbyDevs/main (rev.b8f585e6)
   * broken light theme (rev.9e80dd15)
+  * chore: change banner image(s) (rev.27229f12)
   * chore: image changing to 3.8 (rev.65098b2d)
   * Merge pull request #208 from pan93412/ready-to-atomic (rev.88b13449)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.20b77a34)
   * feat: added formatting in telemetry disabling (rev.6600cd98)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.dd511d84)
   * feat: (yet again) updated telemetry disabling (rev.40d0b8a3)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.23c611a8)
   * fix: added `-e` to `echo` call in telemetry disabling (rev.1cb1f045)
   * fix(i18n): removed excess whitespace (rev.ee8b894a)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.8fddcac3)
   * feat(i18n): updated Turkish (rev.2b2f395b)
   * feat(i18n): updated Spanish (rev.35b10e45)
   * feat(i18n): updated Indonesian (rev.2b18f7e7)
@@ -355,19 +483,17 @@ an-anime-game-launcher (3.7.5) noble; urgency=low
   * feat(i18n): updated Italian (rev.2e9b62a5)
   * refactor(core): :bug: Use AtomicBool for READY (rev.2c765700)
   * Use 'sh -c' to properly execute 'echo' when disabling telemetry (rev.3ba2beb3)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 14 Jul 2023 06:43:22 -0000
-
-an-anime-game-launcher (3.7.4) noble; urgency=low
-
   * 3.7.4 (rev.67ba65a3)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 19 Jun 2023 08:46:58 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 14 Jul 2023 07:09:34 -0000
 
-an-anime-game-launcher (3.7.3) noble; urgency=low
+honkers-launcher (1.2.2) noble; urgency=low
 
+  * 1.2.2 (rev.586a84fa)
+  * Merge pull request #44 from an-anime-team/next (rev.cf3fd5b1)
+  * fix(core): fixed disable telemetry function (rev.c26ce924)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.222a2640)
   * 3.7.3 (rev.3eb7421c)
   * Merge pull request #199 from an-anime-team/next (rev.f5eaebdd)
   * feat(i18n): update German translation (rev.1b734b15)
@@ -382,20 +508,46 @@ an-anime-game-launcher (3.7.3) noble; urgency=low
   * Merge branch 'main' into next (rev.31e53636)
   * feat(ui): updated "disable telemetry" icon (rev.0634f333)
   * feat: added telemetry disabling state support (rev.07fbb13b)
+  * feat(core): slightly improved crash reported restoring (rev.22f96831)
   * feat(ui): updated "disable mhypbase" description (rev.2dea43fb)
+  * docs: updated changelog (rev.debd1597)
+  * feat(core): added deletion of old patch files (rev.f54506c5)
   * feat: replaced xlua patch by "disable mhypbase" option (rev.d00dee3e)
+  * feat(i18n): updated Japanese (rev.10ad188f)
   * ci: added target branch checker for pull requests (rev.a1962a52)
   * 3.7.2 (rev.cc808bf8)
   * ci: added target branch checker for pull requests (rev.59f58d1d)
+  * Merge branch 'main' into next (rev.c6a831c7)
+  * Merge pull request #42 from FichteForks/pr/check-target-branch (rev.bbcdc73d)
+  * chore(actions): prevent PRs against the wrong branch (rev.81b2e102)
+  * refactor: implemented #41 (rev.18e18081)
+  * Merge pull request #41 from FichteForks/pr/just-run-patch-not-verified (rev.a9414657)
+  * feat(main): allow "just run" for unverified patch (rev.e814371a)
   * build: updated `Cargo.lock` (rev.b8265b2b)
   * feat(core): updated SDK (rev.2d93c5ac)
   * revert: returned back old background picture path (rev.cdef7c11)
+  * chore: updated repository pics (rev.3880e2f5)
+  * docs: updated changelog (rev.a13d0416)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 18 Jun 2023 14:25:59 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 18 Jun 2023 15:00:12 -0000
 
-an-anime-game-launcher (3.7.2) noble; urgency=low
+honkers-launcher (1.2.1) noble; urgency=low
 
+  * 1.2.1 (rev.724f581a)
+  * Merge pull request #32 from an-anime-team/next (rev.9d12a5cf)
+  * feat: updated changelog (rev.0d7ca30e)
+  * feat(i18n): updated Turkish (rev.b197cc81)
+  * feat(i18n): updated Indonesian (rev.64a3f826)
+  * feat(i18n): updated French (rev.4b56128a)
+  * feat(i18n): updated Italian (rev.4cc7ac9e)
+  * feat(i18n): updated German (rev.af147890)
+  * feat(i18n): updated Spanish (rev.ce1d4bfe)
+  * feat(ui): added unverified patch tooltip to the main button (rev.949f6be6)
+  * feat(i18n): added translations related to the new patch (rev.b0b7a4e3)
+  * feat: updated patch credits (rev.48c94cf5)
+  * Merge branch 'next' of https://github.com/an-anime-team/the-honkers-railway-launcher into next (rev.55434238)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.c8da7fe7)
   * 3.7.2 (rev.ded31b9f)
   * Merge pull request #197 from an-anime-team/next (rev.0a7ec00c)
   * build: update `Cargo.lock` (rev.95c87ac5)
@@ -406,17 +558,13 @@ an-anime-game-launcher (3.7.2) noble; urgency=low
   * chore: change images + improve corners (rev.422e66b7)
   * Merge pull request #193 from xstraok/main (rev.157c9d46)
   * Merge pull request #196 from RabbyDevs/main (rev.685f9400)
+  * merge: Fix path in comments #33 (rev.a45a4ff5)
   * Merge branch 'an-anime-team:main' into main (rev.41434291)
   * chore: change images + improve corners (rev.b4d1f526)
+  * Fix path references (rev.224d1e67)
   * fix(ui): fixed repairer's NaN progress (rev.5557c318)
   * fix(ui): fixed check button style for newly made sessions (rev.85fd0aed)
   * refactor: rewrite some parts of fluentscanner.py (rev.956d4f85)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 14 Jun 2023 09:51:34 -0000
-
-an-anime-game-launcher (3.7.1) noble; urgency=low
-
   * build: updated `Cargo.lock` (rev.4db774eb)
   * 3.7.1 (rev.427d1ef9)
   * Merge pull request #187 from an-anime-team/next (rev.7a281c3f)
@@ -426,6 +574,9 @@ an-anime-game-launcher (3.7.1) noble; urgency=low
   * feat(i18n): updated French (rev.51adde73)
   * feat(i18n): updated Indonesian (rev.a97a9bc1)
   * feat(i18n): updated Turkish (rev.4e113d7d)
+  * feat: integrated jadeite patch (rev.21772ff7)
+  * build: updated SDK version (rev.cd50870a)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.f6179912)
   * feat(i18n): updated Japanese (rev.996c7e14)
   * feat(i18n): fixed unintended newline (rev.bdecd32e)
   * feat(i18n): updated Italian (rev.2d9aa775)
@@ -458,14 +609,21 @@ an-anime-game-launcher (3.7.1) noble; urgency=low
   * 3.7.0 (rev.9c65486a)
   * Merge pull request #178 from RabbyDevs/main (rev.13a8aa4a)
   * image change, we are now stable! (rev.e689d4cc)
+  * chore: updated repository logo (rev.3d9fe58d)
   * Merge pull request #173 from RabbyDevs/main (rev.28c09ce2)
   * chores: change all images (rev.cd1ac6f9)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 11 Jun 2023 10:36:57 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 15 Jun 2023 17:16:17 -0000
 
-an-anime-game-launcher (3.7.0) noble; urgency=low
+honkers-launcher (1.2.0) noble; urgency=low
 
+  * 1.2.0 (rev.2745d4d9)
+  * Merge pull request #21 from an-anime-team/next (rev.052ba27d)
+  * feat: updated changelog (rev.6d8d8374)
+  * fix: fixed merging issues (rev.6606100f)
+  * build: fixed `Cargo.lock` (rev.8d892b1e)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.62a9d5b3)
   * 3.7.0 (rev.7bae1890)
   * Merge pull request #167 from an-anime-team/next (rev.d9adc161)
   * feat(i18n): updated Italian (rev.e069244e)
@@ -502,27 +660,44 @@ an-anime-game-launcher (3.7.0) noble; urgency=low
   * feat(ui): set button label as "Continue" when the diff is part downloaded (rev.d031b63b)
   * feat(ui): added dynamic main button icon switching (rev.0f0cb33d)
   * feat(core): implemented SDK 1.4.0 (rev.f3b7a53f)
+  * feat(core): implemented SDK 1.4.0 (rev.eaaeffb5)
   * feat(ui): renamed additional enhancement options (rev.aa407308)
   * feat(i18n): added Indonesian (rev.b564bb77)
   * feat(ui): moved sandbox, environment and game settings into separate pages (rev.e520d867)
   * feat(ui): moved wine/dxvk settings to separate page (rev.3a418126)
   * feat(core): use `whatadistro` library to identify package manager in first run window (rev.4676ac3a)
+  * build: updated `Cargo.lock` (rev.ec57b8f9)
+  * feat(core): implemented SDK 1.3.0 (rev.8d808744)
+  * Merge branch 'next' of https://github.com/an-anime-team/the-honkers-railway-launcher into next (rev.4e9f6e43)
+  * Merge branch 'main' of https://github.com/an-anime-team/the-honkers-railway-launcher (rev.a806802a)
+  * chore: updated repository pictures (rev.8a2af872)
   * feat(about): add credit for italiano (rev.3ad7993b)
   * merge: add italian localization (#163) (rev.dcaf6a02)
   * feat(ui): redesigned main button (rev.e2f66180)
   * feat(core): updated SDK version (rev.7a7cdb38)
   * feat(core): updated SDK version (rev.3d846670)
   * fix: fixed session applying on each launcher start (rev.a58bd18a)
+  * feat: update icon and add artist to about (rev.9d9e683a)
+  * docs: update lutris link (rev.ab92a6e3)
   * docs: updated changelog (rev.9072ad87)
   * chore: updated launcher pictures (rev.f690240e)
   * docs: updated changelog (rev.17953864)
+  * docs: updated changelog (rev.9b442075)
+  * chore: updated launcher pictures (rev.4232c59e)
+  * docs: updated changelog (rev.ed0689b4)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 24 May 2023 21:14:55 -0000
+
+honkers-launcher (1.1.0) noble; urgency=low
+
+  * Merge pull request #6 from an-anime-team/next (rev.0a3ae1a9)
+  * 1.1.0 (rev.2398c787)
+  * feat: updated changelog (rev.bc89e061)
+  * fix: fixed merge issues (rev.8007270f)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher into next (rev.1d7d50e8)
+  * Merge branch 'main' into next (rev.f2c061d6)
   * chore: updated launcher pictures (rev.e1b2f15e)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 24 May 2023 19:50:45 -0000
-
-an-anime-game-launcher (3.6.0) noble; urgency=low
-
   * Merge pull request #153 from an-anime-team/next (rev.c2208070)
   * Merge branch 'main' into next (rev.9ea4019f)
   * 3.6.0 (rev.bd60396f)
@@ -532,6 +707,8 @@ an-anime-game-launcher (3.6.0) noble; urgency=low
   * feat(i18n): updated Spanish (rev.90dcda8c)
   * docs: separated lutris wiki ref from other installation methods (rev.a70a6e29)
   * docs: add Lutris to download (rev.7df40fcc)
+  * feat(ui): added wishes history opener (rev.c05268f0)
+  * feat: removed repair game button (rev.92c4b92e)
   * feat(i18n): updated German (rev.a89f9be2)
   * feat(ui): decreased logo size a bit more (rev.6671486d)
   * feat(i18n): added base localizations (rev.719fffb8)
@@ -559,9 +736,37 @@ an-anime-game-launcher (3.6.0) noble; urgency=low
   * docs: updated download section in readme (rev.a7c0ff29)
   * chore: updated repository logo (rev.27573769)
   * feat: some initial work on adding "game" settings section (rev.c765448e)
+  * docs: add nixos (rev.0741608d)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 06 May 2023 13:42:30 -0000
+
+honkers-launcher (1.0.0) noble; urgency=low
+
+  * docs: removed pacstall link (rev.c6b1c0d7)
+  * docs: fixed gentoo ebuild link (rev.41f57398)
+  * docs: updated download section in readme (rev.b6d59722)
+  * chore: updated repository pictures (rev.94944c85)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher (rev.8a36ed28)
+  * feat(ui): updated credits in about dialog (rev.ca1d3d02)
   * feat(i18): add rules approving to german locale (rev.7c4ea25b)
   * feat(i18): Update German locales (rev.fc2feb48)
   * feat(ui): improved launcher logo rendering quality (rev.9534f072)
+  * build: updated sdk (again) (rev.42ec7f21)
+  * build: updated sdk (rev.99f5e3bc)
+  * build: renamed .desktop file (rev.8ce4ddea)
+  * docs: updated repository links (rev.436404bd)
+  * fix: fixed default game edition selection at start (rev.074139a6)
+  * build: updated sdk version (rev.4151f672)
+  * fix(ui): fixed buttons placing in classic style (rev.82e33550)
+  * feat(core): updated background picture uri (rev.f20085f9)
+  * feat(core): implemented multi-regional patch support (rev.60da405e)
+  * feat(ui): added game edition switcher (rev.d14a31aa)
+  * feat(core): initial multi-edition support (rev.6c442bd9)
+  * feat: initial changes set (rev.81e7b9c5)
+  * feat(ui): used `gtk::Picture` for better image scaling (rev.835cb63b)
+  * ci: fixed release binary name (rev.8aef97c8)
+  * Merge branch 'next' of https://github.com/an-anime-team/an-anime-game-launcher (rev.341cf04e)
   * feat: added rules approving dialog to the first run window (rev.aa521553)
   * docs: added distribution names in download section (rev.b7fe2ffb)
   * docs: added distribution names in download section (rev.7862504c)
@@ -575,15 +780,11 @@ an-anime-game-launcher (3.6.0) noble; urgency=low
   * feat: fixed wine tools running using proton builds (rev.c2bbde85)
   * docs: updated changelog (rev.f475b025)
   * 3.5.2 (rev.2ec976c8)
+  * feat: updated app icon (rev.b396210e)
+  * feat: initial changes set (rev.06c3f0fb)
   * finalize error checking and format printing (rev.c82fbcfe)
   * add detection of missing entries (rev.3cea26c0)
   * docs: updated changelog (rev.3b612914)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 06 May 2023 12:11:29 -0000
-
-an-anime-game-launcher (3.5.2) noble; urgency=low
-
   * 3.5.2 (rev.a52dcd03)
   * Update fluentscan.py (rev.2739006b)
   * Merge pull request #134 from an-anime-team/next (rev.dceb4ea1)
@@ -598,20 +799,8 @@ an-anime-game-launcher (3.5.2) noble; urgency=low
   * 3.5.1 (rev.edaecf9e)
   * docs: updated changelog (rev.5fed930c)
   * 3.5.0 (rev.6025432a)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 17 Apr 2023 17:15:56 -0000
-
-an-anime-game-launcher (3.5.1) noble; urgency=low
-
   * 3.5.1 (rev.88390664)
   * docs: updated changelog (rev.3f805ba8)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 16 Apr 2023 17:44:57 -0000
-
-an-anime-game-launcher (3.5.0) noble; urgency=low
-
   * 3.5.0 (rev.1a6302e5)
   * Merge pull request #130 from an-anime-team/next (rev.b756caba)
   * build: updated SDK version (rev.6c917ee5)
@@ -634,12 +823,6 @@ an-anime-game-launcher (3.5.0) noble; urgency=low
   * feat(ui): small progress bar changes (rev.176789ad)
   * chore: updated logo (rev.fbf3d0cc)
   * feat(ui): small progress bar changes (rev.fb0b8d4f)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 16 Apr 2023 16:18:57 -0000
-
-an-anime-game-launcher (3.4.1) noble; urgency=low
-
   * Merge pull request #127 from an-anime-team/next (rev.c6f1371e)
   * Merge branch 'main' into next (rev.bdf52264)
   * 3.4.1 (rev.a2e1db38)
@@ -651,12 +834,6 @@ an-anime-game-launcher (3.4.1) noble; urgency=low
   * docs: fixed changelog format (rev.2ab5fc5b)
   * chore: updated repository pictures (rev.235e7a72)
   * docs: fixed changelog format (rev.2730d2f8)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 12 Apr 2023 14:01:52 -0000
-
-an-anime-game-launcher (3.4.0) noble; urgency=low
-
   * Merge pull request #123 from an-anime-team/next (rev.b7718d41)
   * Merge branch 'main' into next (rev.a3c8b705)
   * 3.4.0 (rev.fc096b6e)
@@ -690,12 +867,6 @@ an-anime-game-launcher (3.4.0) noble; urgency=low
   * style: updated sdk dependency style (rev.017f0309)
   * chore(core): replaced sdk's git submodule by cargo git dependency (rev.6a306e98)
   * 3.3.0 (rev.0a505a65)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 11 Apr 2023 20:46:37 -0000
-
-an-anime-game-launcher (3.3.0) noble; urgency=low
-
   * 3.3.0 (rev.6577c579)
   * Merge pull request #113 from an-anime-team/next (rev.8a355f4a)
   * docs: updated keep a changelog version (rev.534474d5)
@@ -735,21 +906,9 @@ an-anime-game-launcher (3.3.0) noble; urgency=low
   * feat: implemented `relm4 0.6.0-alpha.2` and `gtk 4.10` (rev.25b18958)
   * fix: fixed downloaded wine version selection on "download wine" button (rev.fcab428c)
   * docs: fixed 3.2.1 tag changelog (rev.57dce12d)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 24 Mar 2023 18:36:11 -0000
-
-an-anime-game-launcher (3.2.1) noble; urgency=low
-
   * 3.2.1 (rev.beedb31d)
   * fix: fixed DXVK applying on changed default path during initial setup (rev.12ce4f18)
   * Added wiki link (rev.ee4f78e5)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 18 Mar 2023 18:46:29 -0000
-
-an-anime-game-launcher (3.2.0) noble; urgency=low
-
   * 3.2.0 (rev.e1475f05)
   * docs: updated changelog (rev.80be1901)
   * chore(core): updated SDK (rev.23175137)
@@ -767,12 +926,6 @@ an-anime-game-launcher (3.2.0) noble; urgency=low
   * feat: added wine/dxvk downloading skipping in initial setup (rev.942abd84)
   * build: changed `opt-level` to `s` (optimize for size) (rev.b4f205b8)
   * feat(ui): added "components index updated" toast (rev.c5ec736f)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 18 Mar 2023 11:51:02 -0000
-
-an-anime-game-launcher (3.1.5) noble; urgency=low
-
   * 3.1.5 (rev.7f6b1b75)
   * feat(i18n): added Turkish (rev.9db637cf)
   * feat(i18n): added "disabled dxvk selection" translations (rev.da60529a)
@@ -780,45 +933,15 @@ an-anime-game-launcher (3.1.5) noble; urgency=low
   * docs: updated changelog (rev.bf125a68)
   * feat(core): implemented SDK 0.4.0 (rev.ae990e99)
   * chore: fixed changelog (rev.afdf8f57)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 08 Mar 2023 19:12:40 -0000
-
-an-anime-game-launcher (3.1.4) noble; urgency=low
-
   * 3.1.4 (rev.58743eca)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 07 Mar 2023 20:52:24 -0000
-
-an-anime-game-launcher (3.1.3) noble; urgency=low
-
   * 3.1.3 (rev.095966d4)
   * feat: improved components downloading in initial setup (rev.438467e9)
   * feat(i18n): added Spanish (rev.25f3c41d)
   * chore(core): updated SDK (rev.d3f8498d)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 07 Mar 2023 18:17:58 -0000
-
-an-anime-game-launcher (3.1.2) noble; urgency=low
-
   * 3.1.2 (rev.9b91f73d)
   * fix: fixed initial setup window panic (rev.032ca88a)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 07 Mar 2023 11:25:42 -0000
-
-an-anime-game-launcher (3.1.1) noble; urgency=low
-
   * 3.1.1 (rev.7f38c15c)
   * feat(ui): added components index path selection to initial setup (rev.2427faa0)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 06 Mar 2023 20:35:38 -0000
-
-an-anime-game-launcher (3.1.0) noble; urgency=low
-
   * 3.1.0 (rev.578f475a)
   * fix(ui): updated launcher urls in about window (rev.245f8f55)
   * chore(core): updated SDK with fixed wine `LANG` values (rev.da70ae17)
@@ -855,23 +978,11 @@ an-anime-game-launcher (3.1.0) noble; urgency=low
   * feat(i18n): changed default language from `en` to `en-us` (rev.e008a978)
   * fix(i18n): forced `format_lang` to return regions for language codes (rev.f109454c)
   * chore(readme): fix flatpak id in install section (rev.da7540ba)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 06 Mar 2023 19:22:33 -0000
-
-an-anime-game-launcher (3.0.1) noble; urgency=low
-
   * 3.0.1 (rev.e475fa9d)
   * feat(ui): temporary hidden repair game button (rev.e6c99ba5)
   * fix(ui): fixed background picture updating on "update background" switch disabled (rev.3ccd66aa)
   * chore(core): updated SDK (rev.714c4758)
   * feat(core): updated core library & sdk, changed game running mechanism (rev.24c8f7fb)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 04 Mar 2023 17:41:27 -0000
-
-an-anime-game-launcher (3.0.0) noble; urgency=low
-
   * add(desktop): Required for flatpak (rev.f11b527e)
   * 3.0.0 (rev.820fb1bf)
   * chore: changed link from gtk to default (rev.391e064c)
@@ -980,40 +1091,16 @@ an-anime-game-launcher (3.0.0) noble; urgency=low
   * Updated launcher SDK (rev.d7e2380a)
   * Repo changes (rev.51569ee2)
   * relm4 init commit (rev.d6b5eb64)
-
-
- -- Marie <marie@kaifa.ch>  Sat, 04 Mar 2023 14:02:05 -0000
-
-an-anime-game-launcher (1.2.4) noble; urgency=low
-
   * 1.2.4 (rev.da37ea21)
   * Added new options to the fps unlocker (rev.7d91714d)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 24 Dec 2022 20:12:51 -0000
-
-an-anime-game-launcher (1.2.3) noble; urgency=low
-
   * 1.2.3 (bugfix) (rev.219bac46)
   * Updated wincompatlib with fixed dxvk 2.0 identification (rev.fb28ecf7)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 07 Dec 2022 20:15:13 -0000
-
-an-anime-game-launcher (1.2.2) noble; urgency=low
-
   * 1.2.2 (rev.82fc7a16)
   * Several changes (rev.9fa5f9e3)
   * upd(buildnup.yml): Merge exp into normal job (rev.755a4aee)
   * Updated components list (rev.41fb9097)
   * Change from command to action for rust (rev.e15d2034)
   * Install rust via rustup (rev.082b9eae)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 07 Dec 2022 18:06:35 -0000
-
-an-anime-game-launcher (1.2.1) noble; urgency=low
-
   * 1.2.1 fix of jap and kor voiceovers versioning (rev.e7b2024f)
   * 1.2.1 (rev.5ae34958)
   * Added `--just-run-game` flag (rev.cae4bd5f)
@@ -1028,28 +1115,10 @@ an-anime-game-launcher (1.2.1) noble; urgency=low
   * Fixed about window re-opening issue (rev.aa6f08f0)
   * Fixed game files repairing (rev.d92674ca)
   * Updated changelog (rev.2544e1ab)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 02 Nov 2022 20:43:38 -0000
-
-an-anime-game-launcher (1.1.3) noble; urgency=low
-
   * Fixed wine prefix creation (rev.9869696d)
   * Updated changelog (rev.fae42d93)
   * 1.1.3 (rev.a6c53280)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 28 Sep 2022 09:54:35 -0000
-
-an-anime-game-launcher (1.1.2) noble; urgency=low
-
   * 1.1.2 (rev.435f00fd)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 26 Sep 2022 19:35:29 -0000
-
-an-anime-game-launcher (1.1.1) noble; urgency=low
-
   * 1.1.1 (rev.a9e3797f)
   * Several changes (rev.002c77a9)
   * Added partial support of wincompatlib (rev.7ac3935a)
@@ -1075,12 +1144,6 @@ an-anime-game-launcher (1.1.1) noble; urgency=low
   * Fixed downloading of fps unlocker and launcher hiding (rev.41dc6532)
   * Added support for FPS unlocker (rev.a7b13453)
   * Updated changelog, removed AppImage building script (rev.e7c0228f)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 26 Sep 2022 15:56:12 -0000
-
-an-anime-game-launcher (1.0.4) noble; urgency=low
-
   * 1.0.4 (rev.c8fc6d3c)
   * Removed patch-related buttons, changed FSR description (rev.d3335db9)
   * Added initial updates pre-downloading support (from 1.0.3 core) (rev.1eedbb52)
@@ -1099,31 +1162,13 @@ an-anime-game-launcher (1.0.4) noble; urgency=low
   * add libadwaita dev package (rev.aa7ebf13)
   * Update buildnup.yml (rev.6514430d)
   * Create buildnup.yml (rev.aa395cc7)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 11 Sep 2022 14:14:06 -0000
-
-an-anime-game-launcher (1.0.3) noble; urgency=low
-
   * 1.0.3 (rev.f4684dcf)
   * Reworked components downloading during initial setup (rev.24673fd8)
   * Updated core library, fixed work with `patch` folder (rev.4843b6f5)
   * Updated readme a bit (rev.02dc016e)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 25 Aug 2022 15:44:12 -0000
-
-an-anime-game-launcher (1.0.2) noble; urgency=low
-
   * 1.0.2 (rev.73a0a274)
   * Updated core library with lots of fixes, added new wine versions (rev.69cccd3a)
   * Fixed Polish LANG value, made FSync default wine sync option (rev.b27bda58)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 24 Aug 2022 16:42:10 -0000
-
-an-anime-game-launcher (1.0.1) noble; urgency=low
-
   * 1.0.1 (rev.a53facfa)
   * Added icon loading from "icon" file, added `--run-game` argument (rev.13de707b)
   * Fixed gamescope switcher's state loading from config (rev.6e2ca304)
@@ -1151,33 +1196,15 @@ an-anime-game-launcher (1.0.1) noble; urgency=low
   * Disabled mangohud if gamescope is enabled (rev.116b31fb)
   * Added launcher pics (rev.d135ef69)
   * 1.0.0-rc1 (rev.a24f419a)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 18 Aug 2022 19:29:25 -0000
-
-an-anime-game-launcher (0.7.1) noble; urgency=low
-
   * 0.7.1 (rev.cc5e9b3d)
   * Added `dxvk-async-1.10.3` (rev.027dad12)
   * Updated changelog (rev.7da9b6c6)
   * Merge branch 'main' of https://gitlab.com/an-anime-team/an-anime-game-launcher-gtk (rev.1d44744c)
   * 0.7.0 (rev.ea6094da)
   * Add CHANGELOG (rev.c764cb07)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 03 Aug 2022 20:37:36 -0000
-
-an-anime-game-launcher (0.6.3) noble; urgency=low
-
   * 0.6.3 (rev.a5caf1a2)
   * Use `patch.root = false` by default in flatpak (rev.cb1936bb)
   * Fixed settings game command default value in environment settings (rev.bbedc288)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 03 Aug 2022 11:44:48 -0000
-
-an-anime-game-launcher (0.6.2) noble; urgency=low
-
   * 0.6.2 (rev.c3a6cf37)
   * Added `WINEARCH=win64` to some places (rev.30ff83b8)
   * Added `devel` style to `FirstRunApp` if it's debug mode (rev.50b69482)
@@ -1187,70 +1214,28 @@ an-anime-game-launcher (0.6.2) noble; urgency=low
   * Added wine & dxvk version selection during initial setup (rev.ceffbe79)
   * Several changes (rev.b5fe109b)
   * Several changes (rev.0baa3593)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 03 Aug 2022 08:49:13 -0000
-
-an-anime-game-launcher (0.6.1) noble; urgency=low
-
   * 0.6.1 (rev.0990340a)
   * 0.6.0 (rev.2d520f5e)
   * Several changes (rev.114d388a)
   * Added automatic `DXVK_ASYNC=1` setting for dxvk-async (rev.85b2e674)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 02 Aug 2022 10:22:37 -0000
-
-an-anime-game-launcher (0.5.3) noble; urgency=low
-
   * 0.5.3 (rev.4a83100b)
   * Several changes (rev.21ee39ad)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 01 Aug 2022 18:04:32 -0000
-
-an-anime-game-launcher (0.5.2) noble; urgency=low
-
   * 0.5.2 (rev.c378f8e3)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 31 Jul 2022 11:42:16 -0000
-
-an-anime-game-launcher (0.5.1) noble; urgency=low
-
   * 0.5.1 (rev.1aa144bf)
   * 0.5.0 (rev.2f086294)
   * Probably fixed startup gtk errors (rev.cb1125df)
   * 0.4.0 (rev.4c5a38df)
   * Several changes (rev.dcf2a782)
   * Added AppImage building script (rev.3e413064)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 30 Jul 2022 17:17:38 -0000
-
-an-anime-game-launcher (0.3.1) noble; urgency=low
-
   * 0.3.1 (rev.9ff00c70)
   * 0.3.0 (rev.2ce9e44a)
   * Fixed app title (rev.69e1c719)
   * Removed excess use statements to hide warning messages (rev.fbfba474)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 28 Jul 2022 16:54:28 -0000
-
-an-anime-game-launcher (0.2.1) noble; urgency=low
-
   * 0.2.1 (rev.c85805d1)
   * Small first run UI changes, marked some wine version as not recommended (rev.3e9f32a1)
   * 0.2.0 (rev.ecb50947)
   * I don't wanna die, I don't wanna die (rev.0f6ebfff)
   * Several changes (rev.744f234a)
-
-
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 28 Jul 2022 11:50:44 -0000
-
-an-anime-game-launcher (0.1.1) noble; urgency=low
-
   * 0.1.1 (rev.daac4c8f)
   * Updated core library (rev.9860c54d)
   * Added about dialog (rev.c7c0c3d9)
@@ -1299,5 +1284,5 @@ an-anime-game-launcher (0.1.1) noble; urgency=low
   * Init commit (rev.baca5a78)
 
 
- -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 26 Jul 2022 15:34:46 -0000
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 01 May 2023 19:09:12 -0000
 

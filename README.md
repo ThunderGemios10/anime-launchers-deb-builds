@@ -1,35 +1,35 @@
 
-# An Anime Game Launcher for Ubuntu
+# Honkers Launcher for Ubuntu
 
 ## Installation
 
 ### Launchpad PPA (Recommended)
 To install the launcher via the unofficial PPA, first add the PPA to your system's Software Sources.
 ```bash
-sudo add-apt-repository ppa:thundergemios10/an-anime-game-launcher
+sudo add-apt-repository ppa:thundergemios10/honkers-launcher
 sudo apt update
 ```
 
 Then install the launcher with:
 ```bash
-sudo apt install an-anime-game-launcher
+sudo apt install honkers-launcher
 ```
 
 ### Manual
 To install the launcher via terminal run:
 ```bash
-sudo dpkg -i an-anime-game-launcher_3.11.0_all.deb 
+sudo dpkg -i honkers-launcher_1.7.1_all.deb
 ```
 
 ## Uninstall
 
 To uninstall the launcher via terminal run:
 ```
-sudo apt remove an-anime-game-launcher
+sudo apt remove honkers-launcher
 ```
 
 If you wish to remove the Launchpad PPA, you can run:
 ```bash
-sudo add-apt-repository --remove ppa:thundergemios10/an-anime-game-launcher
+sudo add-apt-repository --remove ppa:thundergemios10/honkers-launcher
 sudo apt update
 ```
