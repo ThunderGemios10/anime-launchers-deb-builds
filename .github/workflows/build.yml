@@ -8,7 +8,6 @@ permissions:
 env:
   USER_ID: ${{ vars.GPG_USER_ID }}
   LAUNCHER_NAME: 'moe.launcher.an-anime-game-launcher'
-  
 
 jobs:
   build:
@@ -28,12 +27,14 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v4
       with:
+        ref: main
         path: "REPO"
 
     - name: Checkout AAGL repo
       uses: actions/checkout@v4
       with:
         repository: an-anime-team/an-anime-game-launcher
+        sparse-checkout: assets
         path: "AAT-REPO"
 
     - name: Fetch latest binary
