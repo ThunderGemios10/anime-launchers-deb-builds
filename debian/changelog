@@ -1,0 +1,1303 @@
+an-anime-game-launcher (3.11.0) noble; urgency=low
+
+  * 3.11.0 (rev.6fc8547e)
+  * Merge pull request #412 from an-anime-team/next (rev.75f09cb7)
+  * feat: updated changelog (rev.5a23eef6)
+  * feat: clarify GPL version in about dialog (rev.0e692df4)
+  * feat: removed migrate installation feature (rev.e2823aaf)
+  * build: updated SDK version (rev.32ef2a02)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Fri, 02 Aug 2024 09:24:17 -0000
+
+an-anime-game-launcher (3.10.3) noble; urgency=low
+
+  * 3.10.3 (rev.935390ab)
+  * Merge pull request #404 from an-anime-team/next (rev.2c3559c0)
+  * feat: updated changelog (rev.287e79e7)
+  * build: updated launcher SDK (rev.de780bd7)
+  * build: updated launcher SDK (rev.52c8e943)
+  * fix: potentially fixed `game.log` file issues (rev.209ca477)
+  * Update README.md (rev.db46f254)
+  * docs: updated readme (rev.c97259c0)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Sun, 21 Jul 2024 07:36:31 -0000
+
+an-anime-game-launcher (3.10.2) noble; urgency=low
+
+  * 3.10.2 (rev.4c95c145)
+  * Merge pull request #401 from an-anime-team/next (rev.ad287928)
+  * builds: updated SDK version (rev.290adcee)
+  * feat: added missing changelog entry (rev.05c55ba7)
+  * feat: updated changelog (rev.f32aa246)
+  * build: updated SDK version (rev.8f4f1eaa)
+  * feat(ui): list "Indonesia" wine language option (rev.77267731)
+  * build: delete unneeded package from the `flake.nix` (rev.7f5ebc17)
+  * feat: changed background images processing logic (rev.b7ca1849)
+  * feat: updated libraries versions (rev.39527c18)
+  * build: updated `Cargo.lock` (rev.203f7e5f)
+  * build: updated nix flake (rev.42085c2b)
+  * Merge pull request #399 from ezKEa/next (rev.d3266498)
+  * build: replace shell.nix with flake.nix for dev shell (rev.14c71beb)
+  * Merge pull request #398 from ThunderGemios10/main (rev.d83b74bb)
+  * Place DEB format above Pacstall (rev.b24625b7)
+  * Add third-party DEB package link (rev.1eeaaf33)
+  * docs: little text clarifications (rev.3eff1e2a)
+  * build: updated cargo lock (rev.424da341)
+  * docs: added AUR source link (rev.eeae5bd9)
+  * docs: updated readme (rev.5d1cfb4f)
+  * Merge pull request #395 from Luk-ESC/next (rev.20ff3471)
+  * refactor: remove unsafe in i18n (rev.462ada83)
+  * feat: clarified runtime dependencies (rev.b7bfda5a)
+  * build: updated dependencies (rev.0c50bd70)
+  * docs: updated changelog (rev.bacc930c)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Fri, 19 Jul 2024 14:08:50 -0000
+
+an-anime-game-launcher (3.10.1) noble; urgency=low
+
+  * 3.10.1 (rev.cdeca3b6)
+  * Merge pull request #391 from an-anime-team/next (rev.beb42aba)
+  * feat: updated changelog (rev.4d48cd77)
+  * build: updated sdk version (rev.79fc467d)
+  * fix: fixed last commit (rev.a7393156)
+  * feat: handle dwebp re-coding errors (rev.d125b270)
+  * docs: updated changelog (rev.d37e0fb7)
+  * 3.10.0 (rev.7b7400dc)
+  * docs: updated changelog (rev.ffc83554)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Tue, 02 Jul 2024 07:40:43 -0000
+
+an-anime-game-launcher (3.10.0) noble; urgency=low
+
+  * 3.10.0 (rev.5f843df0)
+  * Merge pull request #385 from an-anime-team/next (rev.72a0345a)
+  * fix: fixed Italian localization breaking the launcher (rev.231e2368)
+  * feat: updated changelog (rev.abda7a35)
+  * build: updated core library (rev.d51b4285)
+  * feat: create primary background file if it doesn't exist (rev.eb0f0eae)
+  * feat: respect CN API for getting background image (rev.b529f3e7)
+  * feat: updated background images support (rev.d0f731d6)
+  * build: updated `Cargo.lock` (rev.d991f5aa)
+  * feat: updated background picture URI (rev.04a315ac)
+  * build: updated shell.nix (rev.e131dab8)
+  * Merge pull request #382 from mrvictory1/main (rev.a3fde330)
+  * Update anime-game-launcher.desktop (rev.1268a5b2)
+  * Merge pull request #375 from xxanqw/main (rev.45f86d29)
+  * Localizing force-grab-cursor (rev.c5904345)
+  * feat: list missing dependencies on non-standard distros (rev.19d1deea)
+  * feat: updated shell.nix (rev.d8a43562)
+  * build: added `shell.nix` and direnv integration (rev.222eb72d)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Mon, 17 Jun 2024 13:25:19 -0000
+
+an-anime-game-launcher (3.9.6) noble; urgency=low
+
+  * 3.9.6 (rev.68a68a29)
+  * Merge pull request #367 from an-anime-team/next (rev.bcffcd91)
+  * ci: added `cmake` package (rev.2b015782)
+  * feat: updated changelog and about window (rev.3af24530)
+  * revert: reverted !354 (rev.c1426be1)
+  * Merge pull request #354 from blmarket/main (rev.ab3e3666)
+  * Merge pull request #362 from fautics/patch-1 (rev.1f28bc24)
+  * Merge pull request #357 from vbrabandt2005/main (rev.0cedcec2)
+  * Merge pull request #358 from panmourovaty/next (rev.a35e158f)
+  * Merge pull request #361 from cybik/fix-google-play (rev.80bfbc21)
+  * refactor: fixed warnings (rev.8e657c86)
+  * build: updated dependencies (rev.d0265192)
+  * Update to the maintanted ebuilds (rev.5e64554e)
+  * Better labels for the payment processing options (rev.1f7dfdb7)
+  * add czech localization (rev.5aff3993)
+  * update my username in credits (rev.18222ed1)
+  * Show some helpful error when --run-game cannot work (rev.860a8474)
+  * docs: fixed date in changelog (rev.e4bc7afa)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 08 May 2024 17:44:23 -0000
+
+an-anime-game-launcher (3.9.5) noble; urgency=low
+
+  * 3.9.5 (rev.23eab458)
+  * Merge pull request #353 from an-anime-team/next (rev.c8b1ea3b)
+  * feat: updated changelog (rev.d853a1ea)
+  * feat(i18n): updated German (rev.70aa426e)
+  * Merge branch 'main' into next (rev.cb0db977)
+  * ci: (must have) fixed CI work (rev.388eef05)
+  * feat(i18n): updated Italian (rev.b1a94e8f)
+  * fix(ui): fixed doubled "go back" button in header bar (rev.1e33b48d)
+  * feat(i18n): updated locales (rev.4d04b2b8)
+  * fix(ui): further GtkSwitch UI state fixes (rev.0f1f7b8a)
+  * feat: added "force grab cursor" option to the gamescope settings (rev.bd439cc9)
+  * feat(core): updated SDK version (rev.41e00d1c)
+  * feat: improved app args parsing (rev.919de100)
+  * fix(ui): fixed GtkSwitch UI state representation (rev.f86c86e1)
+  * feat: get rid of deprecated libadwaita functions calls (rev.9914072c)
+  * feat: updated ui libraries (rev.a1d1950c)
+  * feat: update non-ui dependencies (rev.93957504)
+  * fix: bundle `applications-system-symbolic` icon to the app (rev.58398b03)
+  * Add Ukrainian language support (rev.519ebc13)
+  * Merge pull request #348 from TheGoogleRider2/thegooglerider2-ThaiTrans (rev.8f219504)
+  * Merge pull request #345 from ezKEa/wishes-fix (rev.d4de83c4)
+  * Merge pull request #326 from xxanqw/next (rev.61039fb9)
+  * minor updates and probably final (rev.da17e092)
+  * everything is now translated to Thai (rev.979663b4)
+  * minor updates to translation, almost done (rev.9483ec2f)
+  * oh lord, I'm almost done!! but.... (rev.5cc9c3eb)
+  * finished errors.ftl (rev.170eecd1)
+  * even more stuff (rev.05ae47ba)
+  * more stuff (rev.6bf33ed8)
+  * errors, first_run, game & gamescope WIP (rev.5ce247e3)
+  * Update environment.ftl (rev.2896239d)
+  * futher work (rev.6ae9348b)
+  * Finished components.ftl & enhancements.ftl (rev.96eb526d)
+  * Update enhancements.ftl (rev.2e2ef948)
+  * Second push of Thai translation (rev.c40ba585)
+  * fix: update wish url (rev.20385b3c)
+  * Add Ukrainian language support (rev.b2ebfe6c)
+  * docs: added versions links to the changelog (rev.fc9c6507)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 24 Mar 2024 10:51:08 -0000
+
+an-anime-game-launcher (3.9.4) noble; urgency=low
+
+  * 3.9.4 (rev.50fe1bb1)
+  * Merge pull request #315 from an-anime-team/next (rev.ea006727)
+  * feat: updated changelog (rev.a22b582d)
+  * build: updated SDK version (rev.4c4a6476)
+  * feat(i18n): updated locales (rev.3a849d33)
+  * fix: updated fps unlocker executable name in kill game button (rev.a473a1a8)
+  * Merge pull request #314 from mkrsym1/new-fps-unlocker (rev.386c97c9)
+  * feat(i18n): improved FPS unlocker related translations (rev.c250d532)
+  * feat: remove the option to disable periodic writes (rev.445f545c)
+  * feat(i18n): added translations for new FPS unlocker keys (rev.2f522d3b)
+  * feat(ui): adapted to the new FPS unlocker (rev.35f13bb0)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 29 Dec 2023 19:53:14 -0000
+
+an-anime-game-launcher (3.9.3) noble; urgency=low
+
+  * 3.9.3 (rev.d8fc5f11)
+  * Merge pull request #311 from an-anime-team/next (rev.b9ef7ccb)
+  * feat: updated changelog (rev.c0708c6e)
+  * feat: some workarounds with "kill game process" (rev.334539db)
+  * feat(i18n): updated locales (rev.c59261c2)
+  * feat(core): updated SDK version (rev.6122918a)
+  * feat(i18n): Update German translation (rev.af442d3d)
+  * Merge pull request #299 from kfolgerr/next (rev.f052206d)
+  * updated turkish (rev.43f60ed4)
+  * On branch next (rev.b1bd71fe)
+  * feat(i18n): updated locales (rev.fad5190a)
+  * build: updated core library (rev.fd9f2347)
+  * feat(ui): added "updating permissions" installation step (rev.203d5a9b)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 23 Dec 2023 14:34:36 -0000
+
+an-anime-game-launcher (3.9.2) noble; urgency=low
+
+  * 3.9.2 (rev.5a6d7132)
+  * Merge pull request #291 from an-anime-team/next (rev.8a399df0)
+  * build: updated SDK version (rev.e544b034)
+  * feat: updated changelog (rev.35eea145)
+  * feat(i18n): updated Japanese (rev.142872bf)
+  * fix: fixed fluentscan.py script (rev.cac34976)
+  * build: updated development libraries versions (rev.e6076ef4)
+  * build: updated SDK version (rev.5e8db5b3)
+  * build: updated SDK version (rev.1a5e6c40)
+  * Merge pull request #279 from everlyy/main (rev.aef0d6bd)
+  * Merge pull request #272 from project-dy/main (rev.946b4ed2)
+  * Syntax error (rev.c881c154)
+  * Add Dutch translation (rev.097b4443)
+  * Korean Translation (rev.2926a71f)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 13 Nov 2023 19:32:53 -0000
+
+an-anime-game-launcher (3.9.1) noble; urgency=low
+
+  * v3.9.1 (rev.5659208f)
+  * Merge pull request #269 from an-anime-team/next (rev.10ea4590)
+  * docs: updated changelog (rev.17af5c10)
+  * Merge remote-tracking branch 'origin/next' into next (rev.baa3b20b)
+  * build: Updated SDK (rev.2186506d)
+  * feat: Added 7z dependency requirement (rev.3e57468a)
+  * merge: add Vietnamese Localization (#248) (rev.f5c206ff)
+  * merge: Update Chinese Localization (#258) (rev.f7ac75fd)
+  * translation-zhcn: update errors.ftl (rev.3d1e19d8)
+  * translation-zhcn: update components.ftl (rev.6a60fe94)
+  * Merge pull request #255 from tigersoldier/next (rev.eba74e2a)
+  * Update errors.ftl (rev.ccfd34b8)
+  * Update chinese translation (rev.9a7b486b)
+  * Add Vietnamese (rev.13ccf375)
+  * chore: removed repository logo (rev.87a0bd6f)
+  * chore: updated repository pictures (rev.8bbf04e4)
+  * docs: removed patch reference from the readme (rev.a8811add)
+  * docs: updated changelog (rev.365c9764)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 28 Sep 2023 16:21:06 -0000
+
+an-anime-game-launcher (3.9.0) noble; urgency=low
+
+  * 3.9.0 (rev.63202a60)
+  * Merge pull request #241 from an-anime-team/next (rev.0059a26f)
+  * feat: updated changelog (rev.512287ef)
+  * Merge pull request #244 from oritwoen/feat/i18n/pl (rev.b1911440)
+  * Merge branch 'next' into feat/i18n/pl (rev.8ed27fbd)
+  * feat(i18n): add `pl` (rev.9a25c729)
+  * feat: updated changelog (rev.bf91a59f)
+  * feat: added `--session <name>` flag to switch active session (rev.91e7019e)
+  * feat(i18n): updated Indonesian (rev.777675b1)
+  * feat(i18n): updated Japanese (rev.87af3e28)
+  * merge: update swedish localization (rev.e54f585f)
+  * Update Swedish translation to release 3.9.0 (rev.cdcb2ea8)
+  * feat: updated changelog (rev.e0a3ecca)
+  * feat(ui): updated about window (rev.5d8ac5ab)
+  * feat(i18n): Update German translation (rev.b4ab5229)
+  * feat(i18n): updated Italian (rev.0e540652)
+  * feat(core): improved files migration code (rev.eb5aa221)
+  * feat(i18n): added Portuguese (rev.8a5693f9)
+  * feat: added feature to map wine drives (rev.018b3c3d)
+  * docs: updated changelog (rev.76d7aaa7)
+  * feat: removed patch integration (rev.252c9480)
+  * Merge pull request #233 from jakobfridesjo/next (rev.db3dc481)
+  * improving swedish translations (rev.dab2d893)
+  * feat(i18n): updated Italian (rev.808aff17)
+  * docs: updated changelog (rev.f472a6ba)
+  * refactor: rewrote game edition selector (rev.e09efc6e)
+  * fix(ui): fixed logo size in the first run window (rev.ba41a3c0)
+  * feat(i18n): updated Japanese (rev.8b318722)
+  * feat(i18n): updated Italian (rev.beeedcfb)
+  * feat(i18n): updated Turkish (rev.0b2bca27)
+  * refactor: removed excess `set_visible` (rev.8906a4a7)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 20 Aug 2023 14:38:50 -0000
+
+an-anime-game-launcher (3.8.0) noble; urgency=low
+
+  * feat: updated changelog (rev.f359be9f)
+  * Merge pull request #227 from jakobfridesjo/next (rev.4759df1a)
+  * 3.8.0 (rev.dde50e6b)
+  * Merge branch 'an-anime-team:next' into next (rev.e779c12b)
+  * Merge pull request #226 from an-anime-team/next (rev.ff55ef0e)
+  * feat: playing around game process killing method (rev.871cb401)
+  * Added Swedish localization (rev.7c99eeae)
+  * ci: renamed "check target branch" job (rev.112ef613)
+  * feat: updated changelog (rev.19642385)
+  * feat(i18n): update German translation (rev.78bed0f9)
+  * feat(i18n): multiple localization changes (rev.76145612)
+  * ci: check source code on pull requests (rev.cab5a1f6)
+  * ci: updated workflow files (rev.34a4bd79)
+  * feat: added `human_panic` crate for better panics handling (rev.6c58d715)
+  * feat: updated changelog (rev.69bd93bd)
+  * feat: made "kill game process" button kill fps unlocker process as well (rev.747c7e3d)
+  * feat(i18n): translated "kill game process" feature (rev.69d41e7c)
+  * feat: now "kill game process" button can kill chinese client as well (rev.2d5a8143)
+  * feat(core): improved game running status check (rev.11d9d3f7)
+  * feat: reworked app resources system (rev.0f932b86)
+  * feat(core): slightly optimized `tr!` macro (rev.06db94de)
+  * feat(core): replaced `tr` and `tr_args` functions by `tr!` macro (rev.7492aad6)
+  * feat: replaced "auto-close" option by "launcher behavior" (rev.d04bb3e5)
+  * build: updated `Cargo.lock` (rev.efc72297)
+  * build: updated SDK (rev.61926903)
+  * feat(i18n): updated Japanese (rev.7358a16c)
+  * feat(i18n): updated Italian (rev.43b31d7e)
+  * feat: added launcher auto-close option (rev.5d1473a6)
+  * feat: updated changelog (rev.d6208ee6)
+  * build: updated SDK version (rev.448be140)
+  * fix: fixed predownload button sensitivity (rev.76372d4b)
+  * feat(ui): improved pre-downloads state checking (rev.82f6d2c9)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 02 Aug 2023 14:40:54 -0000
+
+an-anime-game-launcher (3.7.6) noble; urgency=low
+
+  * 3.7.6 (rev.1479edf2)
+  * fix: fixed game launching on installs without `launcher.bat` file (rev.51e992d2)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 15 Jul 2023 12:53:45 -0000
+
+an-anime-game-launcher (3.7.5) noble; urgency=low
+
+  * 3.7.5 (rev.ac566f5e)
+  * Merge pull request #221 from an-anime-team/next (rev.e7ddb3b6)
+  * feat: added support to the new wishes url cache location (rev.ee5ab239)
+  * feat: updated changelog (rev.76103af9)
+  * feat(core): updated SDK version with disabled by default patch applying (rev.1520b6aa)
+  * build: updated `Cargo.lock` (rev.995052c2)
+  * Merge pull request #217 from tigersoldier/lang-zh-374 (rev.5f5a9626)
+  * Update Chinese tranlsation (rev.da7b7012)
+  * broken light theme (rev.212acf46)
+  * chore: image changing to 3.8 (rev.dd35e66c)
+  * fix: fixed #208 (rev.4b242e94)
+  * Merge pull request #214 from RabbyDevs/main (rev.2925a5a2)
+  * broken light theme (rev.9e80dd15)
+  * chore: image changing to 3.8 (rev.65098b2d)
+  * Merge pull request #208 from pan93412/ready-to-atomic (rev.88b13449)
+  * feat: added formatting in telemetry disabling (rev.6600cd98)
+  * feat: (yet again) updated telemetry disabling (rev.40d0b8a3)
+  * fix: added `-e` to `echo` call in telemetry disabling (rev.1cb1f045)
+  * fix(i18n): removed excess whitespace (rev.ee8b894a)
+  * feat(i18n): updated Turkish (rev.2b2f395b)
+  * feat(i18n): updated Spanish (rev.35b10e45)
+  * feat(i18n): updated Indonesian (rev.2b18f7e7)
+  * feat(i18n): updated Japanese (rev.475e2523)
+  * feat(i18n): updated Hungarian (rev.4c302a73)
+  * feat(i18n): updated Italian (rev.2e9b62a5)
+  * refactor(core): :bug: Use AtomicBool for READY (rev.2c765700)
+  * Use 'sh -c' to properly execute 'echo' when disabling telemetry (rev.3ba2beb3)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 14 Jul 2023 06:43:22 -0000
+
+an-anime-game-launcher (3.7.4) noble; urgency=low
+
+  * 3.7.4 (rev.67ba65a3)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 19 Jun 2023 08:46:58 -0000
+
+an-anime-game-launcher (3.7.3) noble; urgency=low
+
+  * 3.7.3 (rev.3eb7421c)
+  * Merge pull request #199 from an-anime-team/next (rev.f5eaebdd)
+  * feat(i18n): update German translation (rev.1b734b15)
+  * feat(i18n): clarified Russian (rev.93e1bfe2)
+  * feat(i18n): updated Russian (2) (rev.9f846551)
+  * feat(core): updated SDK (rev.06d38c76)
+  * feat(i18n): updated Russian (rev.e520753d)
+  * feat(i18n): added base English localization for new features (rev.af226090)
+  * feat: updated changelog (rev.cdfc9c92)
+  * feat(core): added discord rpc icons updating (rev.b43b6899)
+  * feat: updated changelog (rev.1cd918c1)
+  * Merge branch 'main' into next (rev.31e53636)
+  * feat(ui): updated "disable telemetry" icon (rev.0634f333)
+  * feat: added telemetry disabling state support (rev.07fbb13b)
+  * feat(ui): updated "disable mhypbase" description (rev.2dea43fb)
+  * feat: replaced xlua patch by "disable mhypbase" option (rev.d00dee3e)
+  * ci: added target branch checker for pull requests (rev.a1962a52)
+  * 3.7.2 (rev.cc808bf8)
+  * ci: added target branch checker for pull requests (rev.59f58d1d)
+  * build: updated `Cargo.lock` (rev.b8265b2b)
+  * feat(core): updated SDK (rev.2d93c5ac)
+  * revert: returned back old background picture path (rev.cdef7c11)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 18 Jun 2023 14:25:59 -0000
+
+an-anime-game-launcher (3.7.2) noble; urgency=low
+
+  * 3.7.2 (rev.ded31b9f)
+  * Merge pull request #197 from an-anime-team/next (rev.0a7ec00c)
+  * build: update `Cargo.lock` (rev.95c87ac5)
+  * docs: updated changelog (rev.43eb0e46)
+  * feat(i18n): updated Hungarian (rev.2da57a34)
+  * feat(i18n): updated Spanish (rev.6d1df852)
+  * fix(ui): fixed current game session selection when selected one is removed (rev.ca838db7)
+  * chore: change images + improve corners (rev.422e66b7)
+  * Merge pull request #193 from xstraok/main (rev.157c9d46)
+  * Merge pull request #196 from RabbyDevs/main (rev.685f9400)
+  * Merge branch 'an-anime-team:main' into main (rev.41434291)
+  * chore: change images + improve corners (rev.b4d1f526)
+  * fix(ui): fixed repairer's NaN progress (rev.5557c318)
+  * fix(ui): fixed check button style for newly made sessions (rev.85fd0aed)
+  * refactor: rewrite some parts of fluentscanner.py (rev.956d4f85)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 14 Jun 2023 09:51:34 -0000
+
+an-anime-game-launcher (3.7.1) noble; urgency=low
+
+  * build: updated `Cargo.lock` (rev.4db774eb)
+  * 3.7.1 (rev.427d1ef9)
+  * Merge pull request #187 from an-anime-team/next (rev.7a281c3f)
+  * build: updated `Cargo.lock` (rev.96854937)
+  * style: reordered some imports (rev.83ed703a)
+  * feat(core): updated SDK version (rev.03b8b1ff)
+  * feat(i18n): updated French (rev.51adde73)
+  * feat(i18n): updated Indonesian (rev.a97a9bc1)
+  * feat(i18n): updated Turkish (rev.4e113d7d)
+  * feat(i18n): updated Japanese (rev.996c7e14)
+  * feat(i18n): fixed unintended newline (rev.bdecd32e)
+  * feat(i18n): updated Italian (rev.2d9aa775)
+  * feat(i18n): added Hungarian (rev.11b087c9)
+  * feat(i18n): Translate new lines in german (rev.62567a9f)
+  * upd(i18n): Correct German Localisation grammar/sentences (#192) (rev.a260289b)
+  * feat(i18n): added base translations for new discord rpc icons feature (rev.ff5e53b0)
+  * feat: added Japanese (rev.cb70f29b)
+  * Merge pull request #191 from zozonteq/next (rev.8bdf676a)
+  * Japanese translation (rev.f33014fe)
+  * docs: removed the team member (rev.b6abe2f1)
+  * docs: added small comment about credits (rev.ab741857)
+  * feat: updated credits in about window (rev.1e1d296c)
+  * feat: updated changelog (rev.d07a144a)
+  * feat(ui): added discord rpc icon selection (rev.df772610)
+  * feat(core): added support for `format` wine/dxvk components field (rev.15fde050)
+  * build: updated SDK (rev.173ef716)
+  * feat: removed 3.7.0 workaround (rev.1018cb09)
+  * feat(core): made initial tasks async which has decreased startup time (rev.18b00516)
+  * build: updated SDK (rev.31f0f785)
+  * feat: updated `get_default_lang()` (rev.2d0e486d)
+  * feat(i18n): updated French (rev.bbe5d180)
+  * feat(i18n): updated Indonesian (rev.818c76ff)
+  * build: updated relm4 (rev.e9bc3959)
+  * feat(ui): reworked game sessions selection (rev.636ccffe)
+  * feat(core): updated SDK (rev.4b409011)
+  * feat: removed toasts when failed to get main/xlua patch status in repairer (rev.3ca0d085)
+  * fix: fixed repair button functionality (rev.cb529f10)
+  * fix: fixed progress bar style after running game repairer (rev.1c595791)
+  * 3.7.0 (rev.9c65486a)
+  * Merge pull request #178 from RabbyDevs/main (rev.13a8aa4a)
+  * image change, we are now stable! (rev.e689d4cc)
+  * Merge pull request #173 from RabbyDevs/main (rev.28c09ce2)
+  * chores: change all images (rev.cd1ac6f9)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 11 Jun 2023 10:36:57 -0000
+
+an-anime-game-launcher (3.7.0) noble; urgency=low
+
+  * 3.7.0 (rev.7bae1890)
+  * Merge pull request #167 from an-anime-team/next (rev.d9adc161)
+  * feat(i18n): updated Italian (rev.e069244e)
+  * docs: removed excess whitespace (rev.4894ae8f)
+  * feat: updated changelog (rev.6491c3e3)
+  * feat(core): updated SDK (rev.97939582)
+  * feat(i18n): updated Turkish (rev.feca65b3)
+  * feat(i18n): updated German (rev.9f13450e)
+  * feat(i18n): updated Spanish (rev.54dcfeff)
+  * feat(i18n): added base locales for main patch applying option (rev.06eb6715)
+  * feat(i18n): updated German (rev.4f709292)
+  * feat(i18n): updated Italian (rev.844be6d9)
+  * feat(i18n): updated Spanish (rev.ad51593e)
+  * feat(core): updated SDK (rev.03b525a3)
+  * feat(i18n): Update German `resume` locale (rev.5ea163ef)
+  * Merge branch 'main' into next (rev.afe635f3)
+  * feat(ui): translated components settings page title (rev.c43acb22)
+  * feat(i18n): updated base forgotten shared libraries locales (rev.7c791323)
+  * fix: added 3.7.0 game update workaround (rev.3edd5ea1)
+  * feat: updated changelog (rev.ba5963ae)
+  * feat(i18n): machine-translated "Resume" (rev.dfde3be9)
+  * feat(i18n): updated Italian (rev.854a3ff6)
+  * feat(i18n): updated German (rev.c88fda60)
+  * feat(i18n): updated Turkish (rev.b5e32c74)
+  * feat(i18n): updated French (rev.6a51ad0b)
+  * feat(i18n): second part of features translation (rev.920911cc)
+  * feat(i18n): first part of features translation (rev.15bdd3cb)
+  * docs: updated changelog (rev.6533d5f8)
+  * feat(ui): set fsr quality in enhancements settings instead of strength (rev.6e847c61)
+  * feat(ui): removed Futex2 wine sync option (rev.45fab721)
+  * feat: added options to use wine/dxvk shared libraries (rev.cf02bcab)
+  * fix(ui): fixed predownload button ui (rev.c4a9acb4)
+  * feat(ui): changed "Continue" to "Resume" for partial downloads (rev.c26870d9)
+  * feat(ui): set button label as "Continue" when the diff is part downloaded (rev.d031b63b)
+  * feat(ui): added dynamic main button icon switching (rev.0f0cb33d)
+  * feat(core): implemented SDK 1.4.0 (rev.f3b7a53f)
+  * feat(ui): renamed additional enhancement options (rev.aa407308)
+  * feat(i18n): added Indonesian (rev.b564bb77)
+  * feat(ui): moved sandbox, environment and game settings into separate pages (rev.e520d867)
+  * feat(ui): moved wine/dxvk settings to separate page (rev.3a418126)
+  * feat(core): use `whatadistro` library to identify package manager in first run window (rev.4676ac3a)
+  * feat(about): add credit for italiano (rev.3ad7993b)
+  * merge: add italian localization (#163) (rev.dcaf6a02)
+  * feat(ui): redesigned main button (rev.e2f66180)
+  * feat(core): updated SDK version (rev.7a7cdb38)
+  * feat(core): updated SDK version (rev.3d846670)
+  * fix: fixed session applying on each launcher start (rev.a58bd18a)
+  * docs: updated changelog (rev.9072ad87)
+  * chore: updated launcher pictures (rev.f690240e)
+  * docs: updated changelog (rev.17953864)
+  * chore: updated launcher pictures (rev.e1b2f15e)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 24 May 2023 19:50:45 -0000
+
+an-anime-game-launcher (3.6.0) noble; urgency=low
+
+  * Merge pull request #153 from an-anime-team/next (rev.c2208070)
+  * Merge branch 'main' into next (rev.9ea4019f)
+  * 3.6.0 (rev.bd60396f)
+  * feat: updated changelog (rev.33e47978)
+  * feat(i18n): updated Turkish (rev.fa488244)
+  * feat(i18n): updated French (rev.3a13246f)
+  * feat(i18n): updated Spanish (rev.90dcda8c)
+  * docs: separated lutris wiki ref from other installation methods (rev.a70a6e29)
+  * docs: add Lutris to download (rev.7df40fcc)
+  * feat(i18n): updated German (rev.a89f9be2)
+  * feat(ui): decreased logo size a bit more (rev.6671486d)
+  * feat(i18n): added base localizations (rev.719fffb8)
+  * feat: added game sessions manager (rev.c872475f)
+  * chore: added lldb debug config (rev.e4ea3215)
+  * feat(core): updated Relm4 to `0.6.0-beta.1` (rev.a122acb0)
+  * feat(ui): reworked entry rows in the settings (rev.3d036e6a)
+  * feat(ui): updated translators credits in about dialog (rev.bdd45471)
+  * feat(ui): initial game settings section rework (rev.073193e5)
+  * Merge pull request #152 from kayranachfolger/next (rev.33cb1b01)
+  * Merge branch 'next' into next (rev.317306cc)
+  * feat(i18n): updated Turkish (rev.8652590a)
+  * feat(i18n): Correct Turkish name in selection (rev.72b50a51)
+  * feat(i18n): updated Turkish (rev.d526bc40)
+  * feat(i18n): updated Turkish (rev.8b0daa87)
+  * feat(i18n): updated Turkish (rev.308c6b17)
+  * feat(core): updated SDK version (rev.f2e10510)
+  * feat(ui): made launcher icon a bit smaller (rev.140eb38a)
+  * feat(core): updated SDK version (rev.5da290bf)
+  * feat(i18n): updated German (rev.45e58267)
+  * feat(i18n): updated base tos dialog locales (rev.e887c629)
+  * feat(i18n): made tos violation warning game-neutral (rev.2a8637c3)
+  * chore: updated repository logo (rev.5888cf89)
+  * docs: added distribution names in download section (rev.33b2f978)
+  * docs: updated download section in readme (rev.a7c0ff29)
+  * chore: updated repository logo (rev.27573769)
+  * feat: some initial work on adding "game" settings section (rev.c765448e)
+  * feat(i18): add rules approving to german locale (rev.7c4ea25b)
+  * feat(i18): Update German locales (rev.fc2feb48)
+  * feat(ui): improved launcher logo rendering quality (rev.9534f072)
+  * feat: added rules approving dialog to the first run window (rev.aa521553)
+  * docs: added distribution names in download section (rev.b7fe2ffb)
+  * docs: added distribution names in download section (rev.7862504c)
+  * docs: updated download section in readme (rev.be1df232)
+  * docs: updated download section in readme (rev.123f4030)
+  * feat: updated readme (rev.58e69bf7)
+  * feat: updated readme (rev.36a2b226)
+  * feat(i18n): updated Chinese and Spanish (rev.3d281e8a)
+  * build(fluentscan): style changes (rev.4d1ed70e)
+  * Merge pull request #135 from xstraok/fluentscanner-update (rev.7d14c65b)
+  * feat: fixed wine tools running using proton builds (rev.c2bbde85)
+  * docs: updated changelog (rev.f475b025)
+  * 3.5.2 (rev.2ec976c8)
+  * finalize error checking and format printing (rev.c82fbcfe)
+  * add detection of missing entries (rev.3cea26c0)
+  * docs: updated changelog (rev.3b612914)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 06 May 2023 12:11:29 -0000
+
+an-anime-game-launcher (3.5.2) noble; urgency=low
+
+  * 3.5.2 (rev.a52dcd03)
+  * Update fluentscan.py (rev.2739006b)
+  * Merge pull request #134 from an-anime-team/next (rev.dceb4ea1)
+  * docs: updated changelog (rev.f9bf0acc)
+  * Merge branch 'main' into next (rev.13d5394c)
+  * feat(i18n): updated base sandbox locales (rev.6281d1a4)
+  * feat(ui): added symlinks and args to sandbox settings (rev.e5daf0cf)
+  * build(i18n): added fluent files scanning tool (rev.3f197708)
+  * feat(i18n): updated Spanish (rev.db5a27df)
+  * feat: add inputs clearing in environment/sandbox settings (rev.addb7130)
+  * build: updated dependencies (rev.dc8377c9)
+  * 3.5.1 (rev.edaecf9e)
+  * docs: updated changelog (rev.5fed930c)
+  * 3.5.0 (rev.6025432a)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 17 Apr 2023 17:15:56 -0000
+
+an-anime-game-launcher (3.5.1) noble; urgency=low
+
+  * 3.5.1 (rev.88390664)
+  * docs: updated changelog (rev.3f805ba8)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 16 Apr 2023 17:44:57 -0000
+
+an-anime-game-launcher (3.5.0) noble; urgency=low
+
+  * 3.5.0 (rev.1a6302e5)
+  * Merge pull request #130 from an-anime-team/next (rev.b756caba)
+  * build: updated SDK version (rev.6c917ee5)
+  * feat(i18n): updated Chinese (rev.671bc189)
+  * feat(i18n): added new base locale to French (forgot to) (rev.60baf267)
+  * feat(i18n): added base locales to all unupdated languages (rev.59aba5f8)
+  * feat(i18n): updated Chinese (rev.8637c684)
+  * feat(ui): added debugger to wine tools (rev.38e285ce)
+  * fix(ui): fixed hostname option in sandbox settings (rev.f64d6012)
+  * feat(i18n): updated Russian (rev.f42a91c0)
+  * feat(i18n): updated base locales (rev.7ca492b6)
+  * docs: updated changelog (rev.704b238e)
+  * build: updated dependencies (rev.c5fbeb2a)
+  * feat(ui): added sandboxing feature (rev.1954f997)
+  * feat: added game sandboxing (rev.d0583428)
+  * feat: listed Krock in about window (rev.07a992be)
+  * feat(core): fixed use of fps unlocker (rev.ce20f1e6)
+  * feat(core): initial core/sdk migration patch set (rev.4eed9946)
+  * chore: updated logo (rev.4ab8a6cc)
+  * feat(ui): small progress bar changes (rev.176789ad)
+  * chore: updated logo (rev.fbf3d0cc)
+  * feat(ui): small progress bar changes (rev.fb0b8d4f)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 16 Apr 2023 16:18:57 -0000
+
+an-anime-game-launcher (3.4.1) noble; urgency=low
+
+  * Merge pull request #127 from an-anime-team/next (rev.c6f1371e)
+  * Merge branch 'main' into next (rev.bdf52264)
+  * 3.4.1 (rev.a2e1db38)
+  * feat(i18n): updated Spanish (rev.8bcf1c19)
+  * feat: updated changelog (rev.9308086b)
+  * feat(ui): disabled fraction displaying in repairer's progress bar (rev.985b66d7)
+  * feat(core): updated SDK to 0.5.17 with some hotfixes (rev.3d6b3bfd)
+  * chore: updated repository pictures (rev.d790a371)
+  * docs: fixed changelog format (rev.2ab5fc5b)
+  * chore: updated repository pictures (rev.235e7a72)
+  * docs: fixed changelog format (rev.2730d2f8)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 12 Apr 2023 14:01:52 -0000
+
+an-anime-game-launcher (3.4.0) noble; urgency=low
+
+  * Merge pull request #123 from an-anime-team/next (rev.b7718d41)
+  * Merge branch 'main' into next (rev.a3c8b705)
+  * 3.4.0 (rev.fc096b6e)
+  * feat(i18n): updated Spanish (rev.3e17e243)
+  * feat: preparations for upcoming 3.6 changes (rev.f66111f8)
+  * feat(i18n): added base migration-related locales (rev.4e173fe9)
+  * feat(i18n): added base 3.4.0 localization (rev.01748695)
+  * feat(i18n): updated Chinese (rev.5fe9c701)
+  * feat(ui): Added preferences search (rev.9189a672)
+  * feat(ui): fixed app version display in changelog (rev.3b8ec109)
+  * docs: updated changelog (rev.032e6be5)
+  * feat(ui): made wine / dxvk versions always visible if they're downloaded (rev.9453a2bb)
+  * feat(ui): replaced static image by spinner in wine / dxvk version selection (rev.16e6c8e1)
+  * feat: added whitespaces removing from environment values (rev.13fd1ebb)
+  * feat: added wine tools to settings (rev.f7779635)
+  * feat: made migrate installation button work (rev.567df166)
+  * fix: fixed game edition changing on switcher change (rev.28519595)
+  * feat(ui): added changelog to updated components toast (rev.49ebbc35)
+  * docs: updated changelog (rev.22598efb)
+  * feat(core): implemented SDK 0.5.12 (rev.deacef37)
+  * feat(ui): utilized new `recommended` feature for wine / dxvk versions (rev.941851c2)
+  * feat(ui): used dxvk component's title field (rev.487fdd79)
+  * docs: updated changelog (rev.7fb37d92)
+  * feat: added environment emulation support (rev.d7a46b25)
+  * docs: updated changelog, added it to about window (rev.b20df574)
+  * feat(core): implemented core 0.5.8 (rev.02323bad)
+  * feat(ui): added initial installation migration window support (rev.7e20abf9)
+  * feat: improved game repairing feature (rev.5a4eeb56)
+  * feat: first run: made default game folder name depend on game edition (rev.f1b10c6b)
+  * feat(ui): small ui fixes (rev.71d454d8)
+  * style: updated sdk dependency style (rev.017f0309)
+  * chore(core): replaced sdk's git submodule by cargo git dependency (rev.6a306e98)
+  * 3.3.0 (rev.0a505a65)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 11 Apr 2023 20:46:37 -0000
+
+an-anime-game-launcher (3.3.0) noble; urgency=low
+
+  * 3.3.0 (rev.6577c579)
+  * Merge pull request #113 from an-anime-team/next (rev.8a355f4a)
+  * docs: updated keep a changelog version (rev.534474d5)
+  * feat(ui): reduced toasts timeout from 5 to 4 seconds (rev.e24f642e)
+  * feat(i18n): updated locales (Spanish, Russian) (rev.d85dab86)
+  * feat(ui): changed background for the main progress bar in classic style (rev.a3e4e40b)
+  * fix: fixed infinite retries to download some update or patch the game if it failed (rev.f0286a41)
+  * docs: updated changelog (rev.7c02c318)
+  * chore(core): updated core library to 1.4.5 (rev.a54148bb)
+  * feat(core): removed `launcher.speed_limit` config (rev.ac652529)
+  * style: small style changes (rev.ec1d3aee)
+  * Added dark repository pictures variants (rev.d13e54f7)
+  * docs: added info about branches (rev.3bb796ab)
+  * feat(core): swapped game version gathering and patch repo updating tasks order (rev.1a8bb8bf)
+  * docs: updated changelog (rev.3c947cea)
+  * Squashed commit of the following: (rev.4d75a85d)
+  * Added dark repository pictures variants (rev.a8f0d32a)
+  * merge: Match branch to head branch (#111) (rev.06dc789f)
+  * feat(ui): added menu button to open wishes history in your browser (rev.666a3e29)
+  * feat(i18n): updated Turkish (rev.261adc3b)
+  * refactor: used `std::env::temp_dir()` instead of `std::path::PathBuf::from("/tmp")` (rev.2d81e50e)
+  * docs: updated changelog (rev.b5f8f7a4)
+  * fix(core): updated core library with fixed `XluaPatch` work (rev.e8455d79)
+  * feat(i18n): updated German (rev.a733d94f)
+  * build: changed required `gtk` version to `4.8` (rev.8ed00781)
+  * feat(ui): initial xlua patch implementation (rev.907361df)
+  * feat(core): implemented core library 1.4.0 (rev.ddc122d6)
+  * chore: Replace download section (rev.711cc820)
+  * chore: updated repository pictures (rev.b5d38a74)
+  * refactor: changed deprecated method `show` to `present` (rev.3d167497)
+  * docs: changed ascii chart to png (rev.a73eda5b)
+  * docs: added info about branches (rev.c10b6e3d)
+  * ci: added `next` branch to github actions (rev.2fb7ba14)
+  * docs: changed ascii chart to png (rev.f52c8ec9)
+  * docs: added info about branches (rev.5df5ce46)
+  * ci: added `next` branch to github actions (rev.f0a7fdd5)
+  * feat: implemented `relm4 0.6.0-alpha.2` and `gtk 4.10` (rev.25b18958)
+  * fix: fixed downloaded wine version selection on "download wine" button (rev.fcab428c)
+  * docs: fixed 3.2.1 tag changelog (rev.57dce12d)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Fri, 24 Mar 2023 18:36:11 -0000
+
+an-anime-game-launcher (3.2.1) noble; urgency=low
+
+  * 3.2.1 (rev.beedb31d)
+  * fix: fixed DXVK applying on changed default path during initial setup (rev.12ce4f18)
+  * Added wiki link (rev.ee4f78e5)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 18 Mar 2023 18:46:29 -0000
+
+an-anime-game-launcher (3.2.0) noble; urgency=low
+
+  * 3.2.0 (rev.e1475f05)
+  * docs: updated changelog (rev.80be1901)
+  * chore(core): updated SDK (rev.23175137)
+  * fix: fixed "wine not installed" button work (rev.59d0e27c)
+  * fix: fixed components related error on changing default path (rev.b2ff2c58)
+  * feat: changed default paths in initial setup window (rev.9a0a327b)
+  * docs: updated readme (rev.de0d6054)
+  * feat(core): implemented new SDK (rev.4efa6abb)
+  * feat(i18n): updated locales (rev.991b9b33)
+  * feat(i18n): added missing `fps-unlocker-folder` locale (rev.112e83cd)
+  * feat(ui): added fps unlocker path chooser in initial setup (rev.7d46f9b6)
+  * fix(ui): fixed main button sensitivity after prefix creation (rev.ab2bad95)
+  * chore: update additional configuration URL (rev.b83224fd)
+  * chore: Add matrix to readme (rev.a98cc047)
+  * feat: added wine/dxvk downloading skipping in initial setup (rev.942abd84)
+  * build: changed `opt-level` to `s` (optimize for size) (rev.b4f205b8)
+  * feat(ui): added "components index updated" toast (rev.c5ec736f)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 18 Mar 2023 11:51:02 -0000
+
+an-anime-game-launcher (3.1.5) noble; urgency=low
+
+  * 3.1.5 (rev.7f6b1b75)
+  * feat(i18n): added Turkish (rev.9db637cf)
+  * feat(i18n): added "disabled dxvk selection" translations (rev.da60529a)
+  * feat(core): implemented SDK 0.5.0 (rev.e21dddd2)
+  * docs: updated changelog (rev.bf125a68)
+  * feat(core): implemented SDK 0.4.0 (rev.ae990e99)
+  * chore: fixed changelog (rev.afdf8f57)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 08 Mar 2023 19:12:40 -0000
+
+an-anime-game-launcher (3.1.4) noble; urgency=low
+
+  * 3.1.4 (rev.58743eca)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 07 Mar 2023 20:52:24 -0000
+
+an-anime-game-launcher (3.1.3) noble; urgency=low
+
+  * 3.1.3 (rev.095966d4)
+  * feat: improved components downloading in initial setup (rev.438467e9)
+  * feat(i18n): added Spanish (rev.25f3c41d)
+  * chore(core): updated SDK (rev.d3f8498d)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 07 Mar 2023 18:17:58 -0000
+
+an-anime-game-launcher (3.1.2) noble; urgency=low
+
+  * 3.1.2 (rev.9b91f73d)
+  * fix: fixed initial setup window panic (rev.032ca88a)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 07 Mar 2023 11:25:42 -0000
+
+an-anime-game-launcher (3.1.1) noble; urgency=low
+
+  * 3.1.1 (rev.7f38c15c)
+  * feat(ui): added components index path selection to initial setup (rev.2427faa0)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 06 Mar 2023 20:35:38 -0000
+
+an-anime-game-launcher (3.1.0) noble; urgency=low
+
+  * 3.1.0 (rev.578f475a)
+  * fix(ui): updated launcher urls in about window (rev.245f8f55)
+  * chore(core): updated SDK with fixed wine `LANG` values (rev.da70ae17)
+  * feat(i18n): listed @tigersoldier in translators section (rev.09fe6a91)
+  * Merge pull request #88 from tigersoldier/zh-translation (rev.3e8b63e1)
+  * adding new transation items (rev.dfd2618e)
+  * update translation (rev.a5ad6285)
+  * chore: remove -bin suffix from Gentoo package (rev.186d78aa)
+  * chore: updated changelog & readme (rev.403fa3dd)
+  * chore: remove -bin suffix from Gentoo package in Download section (rev.bd921529)
+  * chore: add NixOS to Download section on `README.md` (rev.ce7ea860)
+  * feat: added commit hashes to core/sdk versions in about (rev.5de6f0aa)
+  * feat(ui): added signal blockings to recommended only switches (rev.95548fc3)
+  * feat: add `de` translation for component index (rev.c477f21a)
+  * Merge remote-tracking branch 'upstream/main' into zh-translation (rev.f46ae89d)
+  * Adding translation for zh-cn (Simplified Chinese) (rev.b2aef084)
+  * feat(ui): shrinked wine/dxvk lists to 12 versions (rev.c220c74d)
+  * feat(i18n): listed @zeGolem in translators section (rev.2a83423a)
+  * feat(i18n): translated components index updating (rev.309da61f)
+  * feat(core): added dynamic components loading (rev.d69107df)
+  * Merge pull request #85 from cybik/vain (rev.5f0d6f5c)
+  * I am vain (rev.6723ac8a)
+  * refactor: implemented #84 (rev.7fead375)
+  * feat: updated core library (rev.b1b3455f)
+  * Merge pull request #84 from cybik/xdg-nit (rev.824da895)
+  * xdg open (rev.e1e53d4b)
+  * fix(ui): fixed titlebar behavior on some DEs (rev.7c6a559f)
+  * feat(i18n): Added french translations (#81) (rev.1eff7448)
+  * feat: update `de` translation (rev.d259940e)
+  * feat(ui): moved integer scaling, fsr and nis into separate group in gamescope settings (rev.f8c457b6)
+  * feat: add `de` translation for repair game function (rev.57d92105)
+  * chore: Update link to the documentation (#72) (rev.facc3882)
+  * feat: added game repairing function (rev.3c7eba4d)
+  * feat(i18n): changed default language from `en` to `en-us` (rev.e008a978)
+  * fix(i18n): forced `format_lang` to return regions for language codes (rev.f109454c)
+  * chore(readme): fix flatpak id in install section (rev.da7540ba)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 06 Mar 2023 19:22:33 -0000
+
+an-anime-game-launcher (3.0.1) noble; urgency=low
+
+  * 3.0.1 (rev.e475fa9d)
+  * feat(ui): temporary hidden repair game button (rev.e6c99ba5)
+  * fix(ui): fixed background picture updating on "update background" switch disabled (rev.3ccd66aa)
+  * chore(core): updated SDK (rev.714c4758)
+  * feat(core): updated core library & sdk, changed game running mechanism (rev.24c8f7fb)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 04 Mar 2023 17:41:27 -0000
+
+an-anime-game-launcher (3.0.0) noble; urgency=low
+
+  * add(desktop): Required for flatpak (rev.f11b527e)
+  * 3.0.0 (rev.820fb1bf)
+  * chore: changed link from gtk to default (rev.391e064c)
+  * chore: updated repository related stuff (rev.12f2876f)
+  * upd(buildnup.yml): fixed submodules (rev.dd8036db)
+  * chore(core): updated SDK with new wine versions (rev.f3e6b294)
+  * fix(ui): changed some icons names to `-symbolic` variants (rev.5075588f)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-relm4 (rev.69f717e8)
+  * chore: changed app id (rev.3a51768b)
+  * feat(i18n): translate discord text into `de` (rev.a200fe0e)
+  * feat(ui): added experimental discord rpc support (rev.3f6fe2b8)
+  * feat(i18n): add `de` translations for gamescope (rev.80a2c6ee)
+  * feat(ui): added gamescope settings support (rev.84683ded)
+  * feat: added app launch flags (rev.ec30411e)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-relm4 (rev.f74d67a5)
+  * fix: added regions to `SUPPORTED_LANGUAGES` (rev.38c2532f)
+  * feat(i18n): translate menu items into `de` (rev.f87248d5)
+  * feat(i18n): added menu items translation (rev.f465e205)
+  * feat(ui): added backgrounds to main window buttons (rev.9d98f289)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-relm4 (rev.6ab04235)
+  * fix(ui): fixed background picture updating (rev.5ae39efb)
+  * feat: Translate `de` voice package error (rev.9f328801)
+  * fix: fixed mistake in the previous commit (rev.7d080fcd)
+  * fix: fixed (?) error on deleting non-installed voice package (rev.a3aad7a2)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-relm4 (rev.8935e566)
+  * feat: added voice packages selection to settings (rev.f5231fe6)
+  * feat: Add predownload-update translation to `de` (rev.138a4e06)
+  * fix: added progress bar hiding after update predownloading (rev.6cc5b265)
+  * feat: added update predownloading support (rev.f31e31ef)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-relm4 (rev.14859e3e)
+  * feat: added translators credits to about window (rev.08004a89)
+  * feat(i18n): Correct first_run translation for `de` (rev.20ab0d64)
+  * feat(i18n): Add `de` translations for environment page (rev.7e184688)
+  * feat(ui): added environment settings page (rev.3b40ce75)
+  * fix(i18n): fixed some stuff idk (rev.6f794947)
+  * fix(i18n): changed format of selected launcher language in config file (rev.ad0893ec)
+  * feat(i18n): added automatic language settings updating from `i18n` mod (rev.c8e8413a)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-relm4 (rev.b1bdfc91)
+  * perf(core): updated sdk with changed md5 library (rev.38f604d2)
+  * Add new lines to `de` (rev.e8ba3bbd)
+  * Add `de` (rev.6284233c)
+  * feat(i18n): translated wine-downloading error toasts (rev.5ddbe878)
+  * feat: added `LauncherState::WineNotInstalled` state support (rev.84697bb9)
+  * feat: added game/voice downloading functionality (rev.099d3c23)
+  * perf: ~23.5% startup performance improvements (rev.d8015669)
+  * feat(core): added `LauncherState::PrefixNotExists` state support (rev.1755faaa)
+  * feat(core): reworked main window's messages (rev.0e07cb06)
+  * refactor(i18n): changed i18n mod again, nothing important (rev.c7a92718)
+  * feat(i18n): added localization to first run window (rev.681ad018)
+  * feat(i18n): added automatic default launcher language selection (rev.cbd91c42)
+  * fix(ui): :bug: added background downloading on style's change from settings (rev.b7e85b7a)
+  * feat(ui): added final page to the first run window (rev.6024ef88)
+  * feat(ui): added voiceover selection page to the first run window (rev.7e2059a3)
+  * feat(ui): added components downloading page to the first run window (rev.5d1633ef)
+  * style(ui): improved style of fullscreen first run window (rev.aa182e6e)
+  * feat(core): added speed limit applying for components downloading (rev.4bdce190)
+  * feat(ui): added blank components downloading page to first run window (rev.cd3614df)
+  * feat(ui): added paths selection page in first run window (rev.4f560eaa)
+  * feat(ui): added new pages to the first run window (rev.9d4ad8df)
+  * feat(ui): initial work on adding first run window (rev.3f5ce430)
+  * feat(ui): made "update background" switcher (rev.fcb24f80)
+  * feat(core): added background picture downloading (rev.6340ccbd)
+  * style(ui): about window: updated debug info format (rev.5651544a)
+  * chore: added recommended extensions for vscode (rev.5c3f6dbd)
+  * style(tracing): added pretty formatting to debug.log file (rev.82657f2d)
+  * tracing: removed `env-filter` and use of `RUST_LOG` (rev.efa96b9d)
+  * tracing: improved logs output (rev.1dcc1b54)
+  * main window: added colors and tooltips to action button (rev.4e6325dd)
+  * i18n: updated Russian (rev.1d420d27)
+  * main window: made action button to follow launcher's state (rev.9497136a)
+  * main window: added initial states system support (rev.f2a04f5e)
+  * main window: added functionality to menu actions (rev.14067c7b)
+  * components: made all preferences components async (rev.8199e0ea)
+  * core: done dynamic heavy tasks initialization (rev.6525fbb0)
+  * preferences: made settings sections separate components (rev.ba751808)
+  * styles: fixed `AdwStatusPage` background (rev.3d5cf4a8)
+  * appearance settings: added initial "download background" option support (rev.76538fbf)
+  * general settings: added test launcher style switcher (rev.58703167)
+  * packages: updated `relm4` and `glib-build-tools` version (rev.949a0f37)
+  * i18n: added forgoten patch-related translations (rev.b26ff37b)
+  * Changed debug logging (rev.44d074d8)
+  * Settings: added toast messages on errors (rev.4965a9f0)
+  * Settings: added wine/dxvk applying on one's selection (rev.036beac9)
+  * Changed `--debug` behavior to only affect stdout debug/info messages (rev.82fdb7b2)
+  * Removed unnecessary things (rev.5ad110a9)
+  * Progress bar: added status translations (rev.fe898e6b)
+  * Progress bar: added proper title updating (rev.28d76634)
+  * core: made some components async and updated launcher sdk (rev.09168941)
+  * Components list: added on_downloaded / deleted events (rev.2a96982f)
+  * preferences: added downloaded wine/dxvks lists (rev.7ba02548)
+  * settings: added patch status displaying (rev.29702782)
+  * config: fixed test path fox game diff getter (rev.84163c47)
+  * settings: added showing of installed game version (rev.bf3e58e2)
+  * Updated SDK (rev.14c425ae)
+  * UI: Made progress bar component; added it to the components list (rev.12cf7b3e)
+  * Component list: added base download/delete functions (rev.d9086186)
+  * Components list: added base components states system (rev.db24d1bd)
+  * Components list: added working "recommended only" switcher (rev.f168862c)
+  * General settings: added wine/dxvk selection skeleton (rev.48d7f0fc)
+  * General settings: added wine & dxvk selection UI (rev.d38d0988)
+  * Tracing: added some debug and info messages (rev.a3c760bb)
+  * UI: added more info to the about dialog (rev.a00df927)
+  * Splitted localization files & added about dialog (rev.e3d36f1f)
+  * Added 3 remaining options to the fps unlocker settings (rev.7bb2ecb2)
+  * Implemented all remained enhancements properties (rev.6839ec1b)
+  * Updated launcher SDK (rev.d7e2380a)
+  * Repo changes (rev.51569ee2)
+  * relm4 init commit (rev.d6b5eb64)
+
+
+ -- Marie <marie@kaifa.ch>  Sat, 04 Mar 2023 14:02:05 -0000
+
+an-anime-game-launcher (1.2.4) noble; urgency=low
+
+  * 1.2.4 (rev.da37ea21)
+  * Added new options to the fps unlocker (rev.7d91714d)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 24 Dec 2022 20:12:51 -0000
+
+an-anime-game-launcher (1.2.3) noble; urgency=low
+
+  * 1.2.3 (bugfix) (rev.219bac46)
+  * Updated wincompatlib with fixed dxvk 2.0 identification (rev.fb28ecf7)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 07 Dec 2022 20:15:13 -0000
+
+an-anime-game-launcher (1.2.2) noble; urgency=low
+
+  * 1.2.2 (rev.82fc7a16)
+  * Several changes (rev.9fa5f9e3)
+  * upd(buildnup.yml): Merge exp into normal job (rev.755a4aee)
+  * Updated components list (rev.41fb9097)
+  * Change from command to action for rust (rev.e15d2034)
+  * Install rust via rustup (rev.082b9eae)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 07 Dec 2022 18:06:35 -0000
+
+an-anime-game-launcher (1.2.1) noble; urgency=low
+
+  * 1.2.1 fix of jap and kor voiceovers versioning (rev.e7b2024f)
+  * 1.2.1 (rev.5ae34958)
+  * Added `--just-run-game` flag (rev.cae4bd5f)
+  * Now launcher will run the game with `--run-game` flag (rev.e375af1c)
+  * Fixed predownload button's state updating (rev.a462583b)
+  * Added ebuild link (#13) (rev.4b9eed36)
+  * "Fixed" `--run-game` flag work (rev.f47bbfce)
+  * Updated git submodules (rev.c6e70cbd)
+  * 1.2.0 (rev.bd41ba30)
+  * Several changes (rev.f9bf1205)
+  * Not sure what I wanted to fix initially (rev.eaa83799)
+  * Fixed about window re-opening issue (rev.aa6f08f0)
+  * Fixed game files repairing (rev.d92674ca)
+  * Updated changelog (rev.2544e1ab)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 02 Nov 2022 20:43:38 -0000
+
+an-anime-game-launcher (1.1.3) noble; urgency=low
+
+  * Fixed wine prefix creation (rev.9869696d)
+  * Updated changelog (rev.fae42d93)
+  * 1.1.3 (rev.a6c53280)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 28 Sep 2022 09:54:35 -0000
+
+an-anime-game-launcher (1.1.2) noble; urgency=low
+
+  * 1.1.2 (rev.435f00fd)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 26 Sep 2022 19:35:29 -0000
+
+an-anime-game-launcher (1.1.1) noble; urgency=low
+
+  * 1.1.1 (rev.a9e3797f)
+  * Several changes (rev.002c77a9)
+  * Added partial support of wincompatlib (rev.7ac3935a)
+  * add libssl-dev (rev.a647e686)
+  * add missing deps (rev.ce18c553)
+  * swap containter to devel (rev.5cd8a278)
+  * Fix workflow (rev.7b90cc40)
+  * Swap Install Deps and Get Submodules (rev.462bca57)
+  * Fix submodule cloning (rev.1d68188a)
+  * Replace " with ' (rev.53cc342b)
+  * fix github action error (rev.5de3aebc)
+  * Add dispatch support (rev.b8090ee2)
+  * Add experimental build and upload (rev.191d3e6d)
+  * Moved to libadwaita 1.2 (rev.5d26f846)
+  * Added support for 1.1.0 core library (rev.6fd220e6)
+  * Added desktop file for flatpak builds (rev.7af63ae7)
+  * 1.1.0 (rev.aa3d7c3f)
+  * Added 165, 180 and 240 fps options for unlocker (rev.f751d4ac)
+  * Fixed DXVK applying using system wine (rev.afafd6bb)
+  * Added usage of xdg-portals for folders chooser during initial setup (rev.8efd07c7)
+  * Added theoretical support for system wine during initial setup (rev.d8a48caf)
+  * Improved FPS unlocker support (rev.368710fd)
+  * Fixed downloading of fps unlocker and launcher hiding (rev.41dc6532)
+  * Added support for FPS unlocker (rev.a7b13453)
+  * Updated changelog, removed AppImage building script (rev.e7c0228f)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 26 Sep 2022 15:56:12 -0000
+
+an-anime-game-launcher (1.0.4) noble; urgency=low
+
+  * 1.0.4 (rev.c8fc6d3c)
+  * Removed patch-related buttons, changed FSR description (rev.d3335db9)
+  * Added initial updates pre-downloading support (from 1.0.3 core) (rev.1eedbb52)
+  * Several changes (rev.57c36ae5)
+  * Updated modules; fixed thread issues when calling `MainApp::update_state` (rev.79d63a17)
+  * Reworked DXVKs UI components to support different builds (rev.8a62ed56)
+  * Implemented updated core library and new components system (2) (rev.00ff5c64)
+  * Implemented updated core library and new components system (rev.8fb93d43)
+  * Fixed ability to use system wine to run the game (rev.c1af50b8)
+  * Added creation of wine/dxvk folders at start if needed (rev.f66624d4)
+  * consistency (rev.ac3d29de)
+  * make action only run on changes in src folder (rev.e16f2b21)
+  * Updated readme (rev.94bfbcb5)
+  * Merge branch 'main' of https://github.com/an-anime-team/an-anime-game-launcher-gtk (rev.7f5981aa)
+  * Changed repos links to github (rev.17ad2f71)
+  * add libadwaita dev package (rev.aa7ebf13)
+  * Update buildnup.yml (rev.6514430d)
+  * Create buildnup.yml (rev.aa395cc7)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 11 Sep 2022 14:14:06 -0000
+
+an-anime-game-launcher (1.0.3) noble; urgency=low
+
+  * 1.0.3 (rev.f4684dcf)
+  * Reworked components downloading during initial setup (rev.24673fd8)
+  * Updated core library, fixed work with `patch` folder (rev.4843b6f5)
+  * Updated readme a bit (rev.02dc016e)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 25 Aug 2022 15:44:12 -0000
+
+an-anime-game-launcher (1.0.2) noble; urgency=low
+
+  * 1.0.2 (rev.73a0a274)
+  * Updated core library with lots of fixes, added new wine versions (rev.69cccd3a)
+  * Fixed Polish LANG value, made FSync default wine sync option (rev.b27bda58)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 24 Aug 2022 16:42:10 -0000
+
+an-anime-game-launcher (1.0.1) noble; urgency=low
+
+  * 1.0.1 (rev.a53facfa)
+  * Added icon loading from "icon" file, added `--run-game` argument (rev.13de707b)
+  * Fixed gamescope switcher's state loading from config (rev.6e2ca304)
+  * Fixed FSR switch in gamescope settings (rev.3bb1688e)
+  * 1.0.0 (rev.43b09f29)
+  * Removed open launcher folder button from settings (rev.bfa8276a)
+  * Updated core library with improved Chinese version support (rev.c878841a)
+  * Changed preferences icon, updated main window's menu (rev.049a9b72)
+  * Swap patch link (rev.ac8ed8df)
+  * Another small fix for dxvk applying (rev.8cf0772f)
+  * Added fix for dxvk applying with spaces to the runners folder path (rev.02abfd1b)
+  * Changed abandoned patch repo link (rev.ab8cc075)
+  * Added default game edition prediction based on system locale (rev.bc4a246c)
+  * Updated core library; added support for Chinese version (rev.cd76c228)
+  * Added ability to run the game when all patch servers are down (rev.59b50afa)
+  * Used `std::process::Output` on DXVK applying instead of String (rev.a1cdf81e)
+  * Fixed initial setup window (rev.5e2bac1a)
+  * Several changes (rev.08a6e3bc)
+  * Added errors toasting for initial setup window (rev.7efa5e4a)
+  * 1.0.0-rc2 (rev.7938da4b)
+  * Several changes (rev.bcdb0217)
+  * Updated core library and AppImage building script (rev.a425c3cd)
+  * Reworked work with config file (rev.bf313275)
+  * Initial setup changes (rev.82691f70)
+  * Disabled mangohud if gamescope is enabled (rev.116b31fb)
+  * Added launcher pics (rev.d135ef69)
+  * 1.0.0-rc1 (rev.a24f419a)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 18 Aug 2022 19:29:25 -0000
+
+an-anime-game-launcher (0.7.1) noble; urgency=low
+
+  * 0.7.1 (rev.cc5e9b3d)
+  * Added `dxvk-async-1.10.3` (rev.027dad12)
+  * Updated changelog (rev.7da9b6c6)
+  * Merge branch 'main' of https://gitlab.com/an-anime-team/an-anime-game-launcher-gtk (rev.1d44744c)
+  * 0.7.0 (rev.ea6094da)
+  * Add CHANGELOG (rev.c764cb07)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 03 Aug 2022 20:37:36 -0000
+
+an-anime-game-launcher (0.6.3) noble; urgency=low
+
+  * 0.6.3 (rev.a5caf1a2)
+  * Use `patch.root = false` by default in flatpak (rev.cb1936bb)
+  * Fixed settings game command default value in environment settings (rev.bbedc288)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 03 Aug 2022 11:44:48 -0000
+
+an-anime-game-launcher (0.6.2) noble; urgency=low
+
+  * 0.6.2 (rev.c3a6cf37)
+  * Added `WINEARCH=win64` to some places (rev.30ff83b8)
+  * Added `devel` style to `FirstRunApp` if it's debug mode (rev.50b69482)
+  * Changed app's id (rev.724ff903)
+  * Added `Cargo.lock` (rev.67a34d9d)
+  * Added xdelta3 requirement during initial setup (rev.e021b79a)
+  * Added wine & dxvk version selection during initial setup (rev.ceffbe79)
+  * Several changes (rev.b5fe109b)
+  * Several changes (rev.0baa3593)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Wed, 03 Aug 2022 08:49:13 -0000
+
+an-anime-game-launcher (0.6.1) noble; urgency=low
+
+  * 0.6.1 (rev.0990340a)
+  * 0.6.0 (rev.2d520f5e)
+  * Several changes (rev.114d388a)
+  * Added automatic `DXVK_ASYNC=1` setting for dxvk-async (rev.85b2e674)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 02 Aug 2022 10:22:37 -0000
+
+an-anime-game-launcher (0.5.3) noble; urgency=low
+
+  * 0.5.3 (rev.4a83100b)
+  * Several changes (rev.21ee39ad)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Mon, 01 Aug 2022 18:04:32 -0000
+
+an-anime-game-launcher (0.5.2) noble; urgency=low
+
+  * 0.5.2 (rev.c378f8e3)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sun, 31 Jul 2022 11:42:16 -0000
+
+an-anime-game-launcher (0.5.1) noble; urgency=low
+
+  * 0.5.1 (rev.1aa144bf)
+  * 0.5.0 (rev.2f086294)
+  * Probably fixed startup gtk errors (rev.cb1125df)
+  * 0.4.0 (rev.4c5a38df)
+  * Several changes (rev.dcf2a782)
+  * Added AppImage building script (rev.3e413064)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Sat, 30 Jul 2022 17:17:38 -0000
+
+an-anime-game-launcher (0.3.1) noble; urgency=low
+
+  * 0.3.1 (rev.9ff00c70)
+  * 0.3.0 (rev.2ce9e44a)
+  * Fixed app title (rev.69e1c719)
+  * Removed excess use statements to hide warning messages (rev.fbfba474)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 28 Jul 2022 16:54:28 -0000
+
+an-anime-game-launcher (0.2.1) noble; urgency=low
+
+  * 0.2.1 (rev.c85805d1)
+  * Small first run UI changes, marked some wine version as not recommended (rev.3e9f32a1)
+  * 0.2.0 (rev.ecb50947)
+  * I don't wanna die, I don't wanna die (rev.0f6ebfff)
+  * Several changes (rev.744f234a)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Thu, 28 Jul 2022 11:50:44 -0000
+
+an-anime-game-launcher (0.1.1) noble; urgency=low
+
+  * 0.1.1 (rev.daac4c8f)
+  * Updated core library (rev.9860c54d)
+  * Added about dialog (rev.c7c0c3d9)
+  * Improved DXVK applying experience (rev.b1b6f2d6)
+  * Added hot config system, fixed gamemode option (rev.737aa7e8)
+  * Updated libs, added icon to the gtk resources (rev.a6667f73)
+  * Fixed wine lang preference (rev.83d1a4cd)
+  * Added temp folder path param to config (rev.5fee051c)
+  * Updated core and blueprint compiler versions (rev.5565e10e)
+  * Several changes (rev.3f4949fc)
+  * Made some progress on adding game/voiceovers downloading (rev.9d5b3b27)
+  * Made proper voice packages processing in state getting (rev.a4df021a)
+  * Added foundation of the launcher states functionality (rev.bc5b9d2b)
+  * Added working wine version selection (rev.82a6e012)
+  * Added dxvks downloading and deleting functionality (rev.b6bfc4d2)
+  * Made an abstraction over widgets with downloading functionality (rev.741513ab)
+  * Added ability to delete wine versions (rev.30c7d836)
+  * Added working wine downloading with unpacking progress bar (rev.8de240d5)
+  * Added wine downloading feature (rev.c3413cef)
+  * Added WineRow and WineGroup components, made dynamic loading (rev.fb021a07)
+  * Added async preferences opening (rev.8c068583)
+  * Added `DxvkRow` component, made example downloading progress (rev.9817cbd9)
+  * Synced project structure with krypt0nn/gtk-example-app (rev.fd6e729c)
+  * Reworked pages code (rev.8f65f6f3)
+  * Updated DXVK / wine versions UI, added dynamic data loading (rev.0524cf80)
+  * Small UI changes (rev.d26c75c7)
+  * Changed FSR and DXVK HUD env values (rev.edf5e69d)
+  * Synced project structure with krypt0nn/gtk-example-app (rev.e2754a4e)
+  * Added game voiceover selection ui (rev.9d5c0cc9)
+  * Preparations for loading page (rev.178c45ae)
+  * Added wine language option, added gamemode option sync (rev.3be54b22)
+  * Added FSR support in game launching (rev.40e6de29)
+  * Added HUD support in game launching (rev.eb2620f9)
+  * Added wine sync and fsr options syncronization (rev.6cd2c326)
+  * Preparations for preferences updates (rev.919d7eaa)
+  * Added game and patch status updating in settings (rev.59405f44)
+  * Added wine sync support and prepared to add debug launch (rev.86de977e)
+  * Changed config file format and struture (rev.8bec171c)
+  * Several changes (rev.1eed56e5)
+  * Separated preferences pages, added better debugging (rev.48d354cc)
+  * Merge branch 'main' of https://gitlab.com/an-anime-team/an-anime-game-launcher-gtk (rev.a6940d6d)
+  * Synced project structure with `krypt0nn/gtk-example-app` (rev.992f1ad0)
+  * Merge branch 'fix-python' into 'main' (rev.0f94fef3)
+  * explicitely use 3 (rev.b8e71f65)
+  * Removed `Cargo.lock` (rev.3f3ca086)
+  * Init commit (rev.baca5a78)
+
+
+ -- Observer KRypt0n_ <suimin.tu.mu.ga.mi@gmail.com>  Tue, 26 Jul 2022 15:34:46 -0000
+

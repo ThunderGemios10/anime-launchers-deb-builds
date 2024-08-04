@@ -1,0 +1,13 @@
+Source: an-anime-game-launcher
+Build-Depends: debhelper
+Homepage: https://github.com/an-anime-team/an-anime-game-launcher
+Maintainer: ThunderGemios10 <thundergemios10@protonmail.com>
+Section: games
+Priority: optional
+
+Package: an-anime-game-launcher
+Architecture: all
+Essential: no
+Depends: libc6 (>= 2.38), libadwaita-1-0, git, p7zip-full, webp
+Recommends: mangohud, gamemode
+Description: An Anime Game launcher for Linux with telemetry disabling

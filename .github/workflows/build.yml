@@ -1,0 +1,73 @@
+name: Build DEB
+
+on: workflow_dispatch
+
+permissions:
+  contents: write
+
+env:
+  USER_ID: ${{ vars.GPG_USER_ID }}
+  LAUNCHER_NAME: 'moe.launcher.an-anime-game-launcher'
+  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Setup build environment
+      run: |
+        sudo apt install debhelper devscripts dput desktop-file-utils
+      
+    - name: Import GPG Key
+      uses: crazy-max/ghaction-import-gpg@v1
+      env:
+         GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+         PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      with:
+        path: "REPO"
+
+    - name: Checkout AAGL repo
+      uses: actions/checkout@v4
+      with:
+        repository: an-anime-team/an-anime-game-launcher
+        path: "AAT-REPO"
+
+    - name: Fetch latest binary
+      run: |
+        wget ${{ env.BINARY_URL }} -O ${{ env.LAUNCHER_NAME }}
+        mkdir -p REPO/usr/bin
+        mv ${{ env.LAUNCHER_NAME }} REPO/usr/bin
+      env:
+        BINARY_URL: https://github.com/an-anime-team/an-anime-game-launcher/releases/latest/download/anime-game-launcher
+
+    - name: Fetch metadata
+      run: |
+        mkdir -p REPO/usr/share/icons/hicolor/512x512/apps/
+        mkdir -p REPO/usr/share/pixmaps/
+        cp AAT-REPO/assets/images/icon.png REPO/usr/share/icons/hicolor/512x512/apps/${{ env.LAUNCHER_NAME }}.png
+        cp AAT-REPO/assets/images/icon.png REPO/usr/share/pixmaps/${{ env.LAUNCHER_NAME }}.png
+        desktop-file-install --dir=REPO/usr/share/applications --set-key=Exec --set-value=${{ env.LAUNCHER_NAME }} --set-key=Icon --set-value=${{ env.LAUNCHER_NAME }} AAT-REPO/assets/anime-game-launcher.desktop
+    
+    - name: Build Debian package
+      run: |
+        mkdir PKG_SOURCE
+        cp -Rf REPO/usr REPO/debian PKG_SOURCE
+        cd PKG_SOURCE
+        dpkg-buildpackage -k${{ env.USER_ID }}
+        debuild -S -k${{ env.USER_ID }}
+
+    - name: Deploy to GitHub
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: aagl
+        files: '*.deb'
+
+    - name: Deploy to Launchpad
+      run: |
+        dput ppa:${{ env.PPA }} *_source.changes
+      env:
+        PPA: 'thundergemios10/an-anime-game-launcher'
