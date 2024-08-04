@@ -1,13 +1,12 @@
-Source: an-anime-game-launcher
+Source: the-honkers-railway-launcher 
 Build-Depends: debhelper
-Homepage: https://github.com/an-anime-team/an-anime-game-launcher
 Maintainer: ThunderGemios10 <thundergemios10@protonmail.com>
 Section: games
 Priority: optional
 
-Package: an-anime-game-launcher
+Package: the-honkers-railway-launcher 
 Architecture: all
 Essential: no
-Depends: libc6 (>= 2.38), libadwaita-1-0, git, p7zip-full, webp
+Depends: libc6 (>= 2.38), libadwaita-1-0, git, webp
 Recommends: mangohud, gamemode
-Description: An Anime Game launcher for Linux with telemetry disabling
+Description: The Honkers Railway launcher for Linux with automatic patching and telemetry disabling

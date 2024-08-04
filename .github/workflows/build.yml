@@ -7,7 +7,7 @@ permissions:
 
 env:
   USER_ID: ${{ vars.GPG_USER_ID }}
-  LAUNCHER_NAME: 'moe.launcher.an-anime-game-launcher'
+  LAUNCHER_NAME: 'moe.launcher.the-honkers-railway-launcher'
   
 
 jobs:
@@ -26,14 +26,14 @@ jobs:
          PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
     - name: Checkout repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
       with:
         path: "REPO"
 
-    - name: Checkout AAGL repo
-      uses: actions/checkout@v4
+    - name: Checkout Honkers Railway repo
+      uses: actions/checkout@v3
       with:
-        repository: an-anime-team/an-anime-game-launcher
+        repository: an-anime-team/the-honkers-railway-launcher
         path: "AAT-REPO"
 
     - name: Fetch latest binary
@@ -42,7 +42,7 @@ jobs:
         mkdir -p REPO/usr/bin
         mv ${{ env.LAUNCHER_NAME }} REPO/usr/bin
       env:
-        BINARY_URL: https://github.com/an-anime-team/an-anime-game-launcher/releases/latest/download/anime-game-launcher
+        BINARY_URL: https://github.com/an-anime-team/the-honkers-railway-launcher/releases/latest/download/honkers-railway-launcher
 
     - name: Fetch metadata
       run: |
@@ -50,7 +50,7 @@ jobs:
         mkdir -p REPO/usr/share/pixmaps/
         cp AAT-REPO/assets/images/icon.png REPO/usr/share/icons/hicolor/512x512/apps/${{ env.LAUNCHER_NAME }}.png
         cp AAT-REPO/assets/images/icon.png REPO/usr/share/pixmaps/${{ env.LAUNCHER_NAME }}.png
-        desktop-file-install --dir=REPO/usr/share/applications --set-key=Exec --set-value=${{ env.LAUNCHER_NAME }} --set-key=Icon --set-value=${{ env.LAUNCHER_NAME }} AAT-REPO/assets/anime-game-launcher.desktop
+        desktop-file-install --dir=REPO/usr/share/applications --set-key=Exec --set-value=${{ env.LAUNCHER_NAME }} --set-key=Icon --set-value=${{ env.LAUNCHER_NAME }} AAT-REPO/assets/honkers-railway-launcher.desktop
     
     - name: Build Debian package
       run: |
@@ -63,11 +63,11 @@ jobs:
     - name: Deploy to GitHub
       uses: softprops/action-gh-release@v1
       with:
-        tag_name: aagl
+        tag_name: honkers-railway
         files: '*.deb'
 
     - name: Deploy to Launchpad
       run: |
         dput ppa:${{ env.PPA }} *_source.changes
       env:
-        PPA: 'thundergemios10/an-anime-game-launcher'
+        PPA: 'thundergemios10/the-honkers-railway-launcher'
