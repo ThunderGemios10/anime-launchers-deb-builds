@@ -64,6 +64,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         tag_name: honkers
+        target_commitish: honkers
         files: '*.deb'
 
     - name: Deploy to Launchpad
