@@ -1,5 +1,5 @@
 Source: an-anime-game-launcher
-Build-Depends: debhelper
+Build-Depends: debhelper (>= 9)
 Homepage: https://github.com/an-anime-team/an-anime-game-launcher
 Maintainer: ThunderGemios10 <thundergemios10@protonmail.com>
 Section: games
