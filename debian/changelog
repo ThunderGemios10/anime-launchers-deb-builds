@@ -1,3 +1,15 @@
+sleepy-launcher (1.2.0) noble; urgency=low
+
+  * Update `fr` locales (rev.f626b3aa)
+  * i18n: updated Indonesian (rev.f52abc4a)
+  * feat: updated changelog (rev.be3ae3ab)
+  * fix: (potentially) fixed a bug with pre-download button (rev.dd85f1b6)
+  * Update `de` locales (rev.05024235)
+  * feat: reworked gamescope settings (rev.86e283d3)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Sun, 01 Sep 2024 17:28:51 -0000
+
 sleepy-launcher (1.1.0) noble; urgency=low
 
   * 1.1.0 (rev.ca0e2b0f)
