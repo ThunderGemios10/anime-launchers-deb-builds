@@ -1,3 +1,16 @@
+the-honkers-railway-launcher (1.8.0) noble; urgency=low
+
+  * Update `fr` locales (rev.f626b3aa)
+  * i18n: updated Indonesian (rev.f52abc4a)
+  * feat: updated changelog (rev.be3ae3ab)
+  * fix: (potentially) fixed a bug with pre-download button (rev.dd85f1b6)
+  * Update `de` locales (rev.05024235)
+  * feat: reworked gamescope settings (rev.86e283d3)
+  * fix: create cache folder if it doesn't exist (rev.df378357)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Sun, 01 Sep 2024 17:09:56 -0000
+
 the-honkers-railway-launcher (1.7.1) noble; urgency=low
 
   * 1.7.1 (rev.125787e7)
