@@ -1,3 +1,22 @@
+an-anime-game-launcher (3.12.0) noble; urgency=low
+
+  * Update `fr` locales (rev.f626b3aa)
+  * i18n: updated Indonesian (rev.f52abc4a)
+  * build: updated `Cargo.lock` (rev.3e74213b)
+  * build: updated launcher SDK (rev.f7c90c54)
+  * feat: updated changelog (rev.be3ae3ab)
+  * build: updated launcher SDK (rev.aaecdd43)
+  * fix: (potentially) fixed a bug with pre-download button (rev.dd85f1b6)
+  * build: updated launcher SDK (rev.662a3477)
+  * Update `de` locales (rev.05024235)
+  * feat: reworked gamescope settings (rev.86e283d3)
+  * docs: updated changelog (rev.f192305b)
+  * fix: create cache folder if it doesn't exist (rev.df378357)
+  * docs: updated changelog (rev.85ba5b0d)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Sun, 01 Sep 2024 16:07:04 -0000
+
 an-anime-game-launcher (3.11.0) noble; urgency=low
 
   * 3.11.0 (rev.6fc8547e)
