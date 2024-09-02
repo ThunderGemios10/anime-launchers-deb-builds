@@ -18,7 +18,7 @@ sudo apt install the-honkers-railway-launcher
 ### Manual
 To install the launcher via terminal run:
 ```bash
-sudo dpkg -i the-honkers-railway-launcher_1.7.1_all.deb
+sudo dpkg -i the-honkers-railway-launcher_1.8.1_all.deb
 ```
 
 ## Uninstall
