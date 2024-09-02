@@ -1,3 +1,11 @@
+sleepy-launcher (1.2.1) noble; urgency=low
+
+  * build: updated dependencies (rev.83a2d024)
+  * build: updated launcher SDK (rev.05f532cb)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Mon, 02 Sep 2024 19:30:49 -0000
+
 sleepy-launcher (1.2.0) noble; urgency=low
 
   * Update `fr` locales (rev.f626b3aa)
