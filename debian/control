@@ -7,6 +7,6 @@ Priority: optional
 Package: the-honkers-railway-launcher 
 Architecture: all
 Essential: no
-Depends: libc6 (>= 2.38), libadwaita-1-0, git, webp
+Depends: libc6 (>= 2.38), libadwaita-1-0, git, webp, p7zip
 Recommends: mangohud, gamemode
 Description: The Honkers Railway launcher for Linux with automatic patching and telemetry disabling
