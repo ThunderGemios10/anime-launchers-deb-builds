@@ -61,11 +61,10 @@ jobs:
         debuild -S -k${{ env.USER_ID }}
 
     - name: Deploy to GitHub
-      uses: softprops/action-gh-release@v1
+      uses: actions/upload-artifact@v4
       with:
-        tag_name: honkers-railway
-        target_commitish: honkers-railway
-        files: '*.deb'
+        name: honkers-railway
+        path: '*.deb'
 
     - name: Deploy to Launchpad
       run: |
