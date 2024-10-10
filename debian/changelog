@@ -1,3 +1,11 @@
+the-honkers-railway-launcher (1.9.0) noble; urgency=low
+
+  * build: updated dependencies (rev.7d31c70c)
+  * feat: deleted discord rpc support (rev.47075051)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Wed, 09 Oct 2024 20:58:28 -0000
+
 the-honkers-railway-launcher (1.8.2) noble; urgency=low
 
   * feat: updated changelog (rev.5f1ac9d8)
