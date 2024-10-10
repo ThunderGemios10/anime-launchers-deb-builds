@@ -18,7 +18,7 @@ sudo apt install sleepy-launcher
 ### Manual
 To install the launcher via terminal run:
 ```bash
-sudo dpkg -i sleepy-launcher_1.2.1_all.deb
+sudo dpkg -i sleepy-launcher_1.3.0_all.deb
 ```
 
 ## Uninstall

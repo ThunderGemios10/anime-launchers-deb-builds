@@ -1,3 +1,11 @@
+sleepy-launcher (1.3.0) noble; urgency=low
+
+  * build: updated dependencies (rev.7d31c70c)
+  * feat: deleted discord rpc support (rev.47075051)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Wed, 09 Oct 2024 20:38:29 -0000
+
 sleepy-launcher (1.2.1) noble; urgency=low
 
   * build: updated dependencies (rev.83a2d024)
