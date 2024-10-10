@@ -1,3 +1,13 @@
+honkers-launcher (1.9.0) noble; urgency=low
+
+  * build: updated dependencies (rev.7d31c70c)
+  * feat: deleted discord rpc support (rev.47075051)
+  * feat: require 7z binary (rev.569954d5)
+  * build: updated dependencies (rev.e17545fa)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Wed, 09 Oct 2024 21:16:56 -0000
+
 honkers-launcher (1.8.1) noble; urgency=low
 
   * build: updated dependencies (rev.83a2d024)

@@ -18,7 +18,7 @@ sudo apt install honkers-launcher
 ### Manual
 To install the launcher via terminal run:
 ```bash
-sudo dpkg -i honkers-launcher_1.8.1_all.deb
+sudo dpkg -i honkers-launcher_1.9.0_all.deb
 ```
 
 ## Uninstall
