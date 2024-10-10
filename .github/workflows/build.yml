@@ -62,11 +62,10 @@ jobs:
         debuild -S -k${{ env.USER_ID }}
 
     - name: Deploy to GitHub
-      uses: softprops/action-gh-release@v1
+      uses: actions/upload-artifact@v4
       with:
-        tag_name: aagl
-        target_commitish: main
-        files: '*.deb'
+        name: anime-game-launcher
+        path: '*.deb'
 
     - name: Deploy to Launchpad
       run: |
