@@ -1,3 +1,29 @@
+honkers-launcher (1.10.2) noble; urgency=low
+
+  * build: updated SDK version (rev.1fd23b5a)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Fri, 29 Nov 2024 11:51:02 -0000
+
+honkers-launcher (1.10.1) noble; urgency=low
+
+  * feat: respect `language` param for 2 existing alternative langs in bg (rev.2ff43c92)
+  * fix: fixed bg api link (again) (rev.57faf6ae)
+  * feat: lowercase region in bg chooser just in case (rev.5c4bb433)
+  * fix: fixed a typo in the background image chooser (rev.79393ad0)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Thu, 28 Nov 2024 20:30:26 -0000
+
+honkers-launcher (1.10.0) noble; urgency=low
+
+  * feat: updated background picture choosing code (rev.06bd3e3c)
+  * build: updated SDK version (rev.c678fa2a)
+  * Fix warp finder (rev.72828f97)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Thu, 28 Nov 2024 20:00:00 -0000
+
 honkers-launcher (1.9.0) noble; urgency=low
 
   * build: updated dependencies (rev.7d31c70c)
