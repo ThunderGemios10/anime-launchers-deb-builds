@@ -60,12 +60,12 @@ jobs:
         dpkg-buildpackage -k${{ env.USER_ID }}
         debuild -S -k${{ env.USER_ID }}
 
+
     - name: Deploy to GitHub
-      uses: softprops/action-gh-release@v1
+      uses: actions/upload-artifact@v4
       with:
-        tag_name: honkers
-        target_commitish: honkers
-        files: '*.deb'
+        name: honkers
+        path: '*.deb'
 
     - name: Deploy to Launchpad
       run: |
