@@ -1,3 +1,12 @@
+the-honkers-railway-launcher (1.9.1) noble; urgency=low
+
+  * build: updated SDK version (rev.a0f6cc8c)
+  * Fix warp finder (rev.72828f97)
+  * Background image update fix (rev.f62d48eb)
+
+
+ -- Nikita Podvirnyi <krypt0nn@vk.com>  Thu, 05 Dec 2024 14:19:31 -0000
+
 the-honkers-railway-launcher (1.9.0) noble; urgency=low
 
   * build: updated dependencies (rev.7d31c70c)
