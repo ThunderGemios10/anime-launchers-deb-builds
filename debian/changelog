@@ -1,3 +1,9 @@
+the-honkers-railway-launcher (1.10.0) noble; urgency=low
+
+  * New upstream release.
+
+ -- ThunderGemios10 <thundergemios10@protonmail.com>  Wed, 15 Jan 2025 02:08:05 +0800
+
 the-honkers-railway-launcher (1.9.1) noble; urgency=low
 
   * build: updated SDK version (rev.a0f6cc8c)
