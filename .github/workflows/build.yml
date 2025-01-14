@@ -17,7 +17,7 @@ jobs:
     steps:
     - name: Setup build environment
       run: |
-        sudo apt install debhelper devscripts dput desktop-file-utils
+        sudo apt install build-essential:native debhelper devscripts dput desktop-file-utils
       
     - name: Import GPG Key
       uses: crazy-max/ghaction-import-gpg@v1
