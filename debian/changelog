@@ -1,3 +1,9 @@
+an-anime-game-launcher (3.13.1) noble; urgency=low
+
+  * New upstream release.
+
+ -- ThunderGemios10 <thundergemios10@protonmail.com>  Wed, 09 Apr 2025 00:58:16 +0800
+
 an-anime-game-launcher (3.13.0) noble; urgency=low
 
   * build: updated dependencies (rev.7d31c70c)
