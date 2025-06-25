@@ -18,7 +18,7 @@ sudo apt install an-anime-game-launcher
 ### Manual
 To install the launcher via terminal run:
 ```bash
-sudo dpkg -i an-anime-game-launcher_3.13.1_all.deb 
+sudo dpkg -i an-anime-game-launcher_3.14.3_all.deb 
 ```
 
 ## Uninstall
